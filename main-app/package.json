@@ -16,7 +16,6 @@
     "@nuxt/icon": "^1.15.0",
     "@nuxt/image": "^1.10.0",
     "@nuxt/test-utils": "^3.19.1",
-    "@nuxt/ui": "^3.2.0",
     "better-sqlite3": "^11.10.0",
     "nuxt": "^4.0.0-alpha.4",
     "vite-plugin-vuetify": "^2.1.1",
