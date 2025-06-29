@@ -1,7 +1,8 @@
+<script setup lang="ts">
+</script>
 <template>
   <ClientOnly>
     <NuxtLayout>
-      <NuxtLoadingIndicator />
       <NuxtPage />
     </NuxtLayout>
   </ClientOnly>

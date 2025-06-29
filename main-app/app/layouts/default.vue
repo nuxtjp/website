@@ -7,7 +7,7 @@ const { data } = await useAsyncData('navigation', () => {
 <template>
   <v-responsive class="border rounded">
     <v-app>
-      <v-app-bar app>
+      <v-app-bar app primary>
         <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>NuxtJP</v-toolbar-title>
         <!--
