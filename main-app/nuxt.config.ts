@@ -1,8 +1,8 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-
   modules: [
     '@nuxt/ui',
     '@nuxt/content',
@@ -10,6 +10,22 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/test-utils'
-  ]
+    '@nuxt/test-utils',
+    (_options, nuxt) => {
+      nuxt.hooks.hook('vite:extendConfig', (config) => {
+        // @ts-expect-error
+        config.plugins.push(vuetify({ autoImport: true }))
+      })
+    },
+  ],
+  build: {
+    transpile: ['vuetify'],
+  },
+  vite: {
+    vue: {
+      template: {
+        transformAssetUrls,
+      },
+    },
+  },
 })
