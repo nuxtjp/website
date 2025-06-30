@@ -10,12 +10,12 @@
       --v-theme-surface-variant: 66,66,66;
       --v-theme-surface-variant-overlay-multiplier: 2;
       --v-theme-on-surface-variant: 238,238,238;
-      --v-theme-primary: 24,103,192;
+      --v-theme-primary: 25,118,210;
       --v-theme-primary-overlay-multiplier: 2;
       --v-theme-primary-darken-1: 31,85,146;
       --v-theme-primary-darken-1-overlay-multiplier: 2;
-      --v-theme-secondary: 72,169,166;
-      --v-theme-secondary-overlay-multiplier: 1;
+      --v-theme-secondary: 66,66,66;
+      --v-theme-secondary-overlay-multiplier: 2;
       --v-theme-secondary-darken-1: 1,135,134;
       --v-theme-secondary-darken-1-overlay-multiplier: 1;
       --v-theme-error: 176,0,32;
@@ -26,6 +26,8 @@
       --v-theme-success-overlay-multiplier: 1;
       --v-theme-warning: 251,140,0;
       --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-accent: 130,177,255;
+      --v-theme-accent-overlay-multiplier: 1;
       --v-theme-on-background: 0,0,0;
       --v-theme-on-surface: 0,0,0;
       --v-theme-on-surface-bright: 0,0,0;
@@ -38,6 +40,7 @@
       --v-theme-on-info: 255,255,255;
       --v-theme-on-success: 255,255,255;
       --v-theme-on-warning: 255,255,255;
+      --v-theme-on-accent: 0,0,0;
       --v-border-color: 0, 0, 0;
       --v-border-opacity: 0.12;
       --v-high-emphasis-opacity: 0.87;
@@ -68,12 +71,12 @@
       --v-theme-surface-variant: 66,66,66;
       --v-theme-surface-variant-overlay-multiplier: 2;
       --v-theme-on-surface-variant: 238,238,238;
-      --v-theme-primary: 24,103,192;
+      --v-theme-primary: 25,118,210;
       --v-theme-primary-overlay-multiplier: 2;
       --v-theme-primary-darken-1: 31,85,146;
       --v-theme-primary-darken-1-overlay-multiplier: 2;
-      --v-theme-secondary: 72,169,166;
-      --v-theme-secondary-overlay-multiplier: 1;
+      --v-theme-secondary: 66,66,66;
+      --v-theme-secondary-overlay-multiplier: 2;
       --v-theme-secondary-darken-1: 1,135,134;
       --v-theme-secondary-darken-1-overlay-multiplier: 1;
       --v-theme-error: 176,0,32;
@@ -84,6 +87,8 @@
       --v-theme-success-overlay-multiplier: 1;
       --v-theme-warning: 251,140,0;
       --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-accent: 130,177,255;
+      --v-theme-accent-overlay-multiplier: 1;
       --v-theme-on-background: 0,0,0;
       --v-theme-on-surface: 0,0,0;
       --v-theme-on-surface-bright: 0,0,0;
@@ -96,6 +101,7 @@
       --v-theme-on-info: 255,255,255;
       --v-theme-on-success: 255,255,255;
       --v-theme-on-warning: 255,255,255;
+      --v-theme-on-accent: 0,0,0;
       --v-border-color: 0, 0, 0;
       --v-border-opacity: 0.12;
       --v-high-emphasis-opacity: 0.87;
@@ -236,6 +242,11 @@
       background-color: rgb(var(--v-theme-warning)) !important;
       color: rgb(var(--v-theme-on-warning)) !important;
     }
+    .bg-accent {
+      --v-theme-overlay-multiplier: var(--v-theme-accent-overlay-multiplier);
+      background-color: rgb(var(--v-theme-accent)) !important;
+      color: rgb(var(--v-theme-on-accent)) !important;
+    }
     .text-background {
       color: rgb(var(--v-theme-background)) !important;
     }
@@ -317,6 +328,12 @@
     .border-warning {
       --v-border-color: var(--v-theme-warning);
     }
+    .text-accent {
+      color: rgb(var(--v-theme-accent)) !important;
+    }
+    .border-accent {
+      --v-border-color: var(--v-theme-accent);
+    }
     .on-background {
       color: rgb(var(--v-theme-on-background)) !important;
     }
@@ -353,4 +370,7 @@
     .on-warning {
       color: rgb(var(--v-theme-on-warning)) !important;
     }
-</style><link rel="stylesheet" href="/_nuxt/entry.DjaJII7C.css" crossorigin><link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?b6e89147-0ed8-4ce8-a8f5-15cfe108ffeb"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/NaJiu8hr.js"><link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/b6e89147-0ed8-4ce8-a8f5-15cfe108ffeb.json"><link rel="prefetch" as="style" crossorigin href="/_nuxt/index.Cg9X1Qt0.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/wWuoo1MU.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/D-DtP1IH.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/COtrm3_4.js"><link rel="prefetch" as="style" crossorigin href="/_nuxt/default.BxKCrmOO.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/C1Tgtruo.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/DKbCy3_8.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/CxXKQReg.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/-J2cFnir.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BLU7d01N.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/DOSrkvND.js"><script type="module" src="/_nuxt/NaJiu8hr.js" crossorigin></script></head><body><div id="__nuxt"><span></span></div><div id="teleports"></div><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/_payload.json?b6e89147-0ed8-4ce8-a8f5-15cfe108ffeb">[{"state":1,"once":3,"_errors":4,"serverRendered":6,"path":7,"prerenderedAt":8},["Reactive",2],{},["Set"],["ShallowReactive",5],{},true,"/",1751184380140]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{content:{wsUrl:""},mdc:{components:{prose:true,map:{}},headings:{anchorLinks:{h1:false,h2:true,h3:true,h4:true,h5:false,h6:false}}},preview:{api:"https://api.nuxt.studio",iframeMessagingAllowedOrigins:""}},app:{baseURL:"/",buildId:"b6e89147-0ed8-4ce8-a8f5-15cfe108ffeb",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body></html>
+    .on-accent {
+      color: rgb(var(--v-theme-on-accent)) !important;
+    }
+</style><link rel="stylesheet" href="/_nuxt/entry.DjaJII7C.css" crossorigin><link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?c05b4bcc-a734-4ec6-9cc2-c890f95e5565"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/Dk7qOd9J.js"><link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/c05b4bcc-a734-4ec6-9cc2-c890f95e5565.json"><link rel="prefetch" as="style" crossorigin href="/_nuxt/index.Cg9X1Qt0.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/DrLMtC0K.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/CRc5OR8y.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/CAJmy4A5.js"><link rel="prefetch" as="style" crossorigin href="/_nuxt/default.BxKCrmOO.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/DoKfDGsm.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Dl07VKmx.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Bm09f9gv.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BqHdOR8v.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Dyvn1Ihx.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BGckuasV.js"><script type="module" src="/_nuxt/Dk7qOd9J.js" crossorigin></script></head><body><div id="__nuxt"><span></span></div><div id="teleports"></div><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/_payload.json?c05b4bcc-a734-4ec6-9cc2-c890f95e5565">[{"state":1,"once":3,"_errors":4,"serverRendered":6,"path":7,"prerenderedAt":8},["Reactive",2],{},["Set"],["ShallowReactive",5],{},true,"/",1751297720356]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{content:{wsUrl:""},mdc:{components:{prose:true,map:{}},headings:{anchorLinks:false}},preview:{api:"https://api.nuxt.studio",iframeMessagingAllowedOrigins:""}},app:{baseURL:"/",buildId:"c05b4bcc-a734-4ec6-9cc2-c890f95e5565",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body></html>
