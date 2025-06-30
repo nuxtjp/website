@@ -11,6 +11,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <ContentRenderer v-if="page" :value="page" />
+  <ContentRenderer
+    v-if="page"
+    :value="page"
+  />
   <div v-else>ページが見つかりません</div>
 </template>

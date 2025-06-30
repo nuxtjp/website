@@ -16,8 +16,18 @@ export default defineNuxtConfig({
       })
     },
   ],
+  content: {
+    build: {
+      markdown: {
+      }
+    },
+    renderer: {
+      anchorLinks: false
+    }
+  },
   build: {
     transpile: ['vuetify'],
+    
   },
   vite: {
     vue: {

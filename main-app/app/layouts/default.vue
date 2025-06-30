@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 const drawer = ref(false)
 const open = ref(['NuxtJP'])
 
@@ -18,7 +19,7 @@ const data = computed(() => navigation.data ? navigation.data.value?.slice(1): [
           @click.stop="drawer = !drawer"
         ></v-app-bar-nav-icon>
         <v-toolbar-title>
-          <a href="/">NuxtJP</a>
+          <NuxtLink to="/">NuxtJP</NuxtLink>
         </v-toolbar-title>
       </v-app-bar>
       <v-navigation-drawer
@@ -46,13 +47,16 @@ const data = computed(() => navigation.data ? navigation.data.value?.slice(1): [
               v-for="item in group.children"
               :key="item.title + '-' + i"
               :title="item.title"
-              :href="item.path"
+              :to="item.path"
+              @click="drawer = false"
             ></v-list-item>
           </v-list-group>
         </v-list>
       </v-navigation-drawer>
       <v-main>
-        <v-container>
+        <v-container
+
+        >
           <slot />
         </v-container>
       </v-main>

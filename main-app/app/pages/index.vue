@@ -8,6 +8,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <ContentRenderer v-if="home" :value="home" />
+  <ContentRenderer
+    v-if="home"
+    :value="home"
+  />
   <div v-else>ページが見つかりません</div>
 </template>
