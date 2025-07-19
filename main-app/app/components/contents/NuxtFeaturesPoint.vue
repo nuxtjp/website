@@ -5,25 +5,29 @@ const topics = [
     title: '構造の最適化',
     summary: 'ディレクトリ・役割の明確化で属人化を防ぎ、再現性のある設計を実現。',
     icon: 'mdi-view-grid-plus-outline',
-    link: '/reason/structure',
+    //link: '/reason/structure',
+    link: '/',
   },
   {
     title: '多様なレンダリング制御',
     summary: 'SSR, SPA, SSG, ISR などにプロジェクト単位で柔軟に対応可能。',
     icon: 'mdi-lan',
-    link: '/reason/rendering',
+    //link: '/reason/rendering',
+    link: '/',
   },
   {
     title: 'ロジックの抽象化',
     summary: 'ビジネスロジックとUI処理を分離し、ドメイン主導設計が自然にできる構造。',
     icon: 'mdi-cube-outline',
-    link: '/reason/ddd-architecture',
+    //link: '/reason/ddd-architecture',
+    link: '/',
   },
   {
     title: '拡張性と保守性の共存',
     summary: 'モジュール設計と型の安全性により、長期運用に耐えるプロジェクト構造を実現。',
     icon: 'mdi-puzzle-outline',
-    link: '/reason/maintainability',
+    //link: '/reason/maintainability',
+    link: '/',
   },
 ]
 </script>
