@@ -2,19 +2,16 @@
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
-
+import { md3 } from 'vuetify/blueprints'
+import { VStepperVertical, VStepperVerticalItem, VStepperVerticalActions } from 'vuetify/labs/VStepperVertical'
+import 'vuetify/dist/vuetify-labs.css'
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
-    theme: {
-      themes: {
-        light: {
-          colors: {
-            primary: '#1976D2',
-            secondary: '#424242',
-            accent: '#82B1FF',
-          },
-        },
-      }
+    blueprint: md3,
+    components: {
+      VStepperVertical,
+      VStepperVerticalItem,
+      VStepperVerticalActions
     }
   })
   app.vueApp.use(vuetify)
