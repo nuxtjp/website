@@ -34,5 +34,5 @@ jobs:
       - name: Build & Deploy to NuxtHub
         uses: nuxt-hub/action@v2
         with:
-          project-key: nuxtjp-website-x3o1
+          project-key: nuxtjp-website-vpcg
           directory: main-app
