@@ -15,12 +15,12 @@ const versions = useNuxtVersionUpHistory()
   </v-container>
 
   <!-- Nuxt バージョンの進化 -->
-  <h2 class="text-h5">
+  <h2 class="text-h5 mt-4">
     Nuxtの進化と大規模開発への適応
   </h2>
 
   <v-container class="my-4">
-     <v-alert type="success" border-color="green" class="mt-6" elevation="1">
+     <v-alert type="success" border-color="green" elevation="1">
       <v-icon start>mdi-domain</v-icon>
       Nuxt 3 は <strong>TypeScript 対応、柔軟なレンダリング戦略、拡張可能なモジュール構成</strong> を備え、大規模開発においても信頼できる選択肢となっています。
     </v-alert>
@@ -59,6 +59,7 @@ const versions = useNuxtVersionUpHistory()
   </v-container>
 
   <h2 class="text-h5 mt-4">今Nuxtを採用する理由</h2>
+  <p>静かに進行する技術的負債 ― それにどう向き合うか？という課題に対して</p>
 
   <v-container>
     <v-alert type="warning" elevation="1" class="ma-4">
@@ -66,11 +67,10 @@ const versions = useNuxtVersionUpHistory()
       <p>設計の混乱・保守性の低下・拡張性の限界、初期フェーズでは見過ごされがちなものほど、気づいたときには取り返しのつかない技術的負債として残ります。</p>
     </v-alert>
 
-    <h3 class="text-h6">静かに進行する技術的負債 ― それにどう向き合うか？という課題に対して</h3>
 
     <v-alert type="info" elevation="1" class="ma-4">
-      <p>Nuxtの本質的な価値は、Vue.js の柔軟さを保ちつつ、プロジェクトを自然に<strong>構造化</strong>し、アプリケーションの開発に<strong>秩序</strong>を与えることにあります。</p>
-      <p>設計段階のみでなく、すでに稼働しているシステムであっても、移行によって自然と構造化の対応が進行することになるのです。</p>
+      <p>Nuxtの本質的な価値は、Vue.jsの柔軟さを保ち（ReactのようなJavaScript主体の構文ではなく、HTMLの構文を維持し）つつ、プロジェクトを自然に<strong>構造化</strong>し、アプリケーションの開発に<strong>秩序</strong>を与えることにあります。</p>
+      <p>そのため設計段階のみでなく、すでに稼働しているシステムであっても、移行を通してデータの構造化に自然と目が行くようになるのです。</p>
     </v-alert>
   </v-container>
 

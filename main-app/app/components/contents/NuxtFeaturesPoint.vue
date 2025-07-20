@@ -34,7 +34,7 @@ const topics = [
 <template>
   <v-row dense>
     <v-col v-for="item in topics" :key="item.title">
-      <v-card outlined min-width="400">
+      <v-card outlined>
         <v-card-title>
           <v-icon color="primary">{{ item.icon }}</v-icon>
           {{ item.title }}
