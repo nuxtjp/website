@@ -22,7 +22,7 @@ const versions = useNuxtVersionUpHistory()
   <v-container class="my-4">
      <v-alert type="success" border-color="green" elevation="1">
       <v-icon start>mdi-domain</v-icon>
-      Nuxt 3 は <strong>TypeScript 対応、柔軟なレンダリング戦略、拡張可能なモジュール構成</strong> を備え、大規模開発においても信頼できる選択肢となっています。
+      <p>Nuxt 3 は <strong>TypeScript 対応、柔軟なレンダリング戦略、拡張可能なモジュール構成</strong> を備え、大規模開発においても信頼できる選択肢となっています。</p>
     </v-alert>
     <v-timeline side="end" density="compact">
       <v-timeline-item
@@ -32,10 +32,10 @@ const versions = useNuxtVersionUpHistory()
         size="small"
       >
         <template #opposite>
-          <strong>{{ item.version }}</strong>
+          
         </template>
         <v-card variant="outlined">
-          <v-card-title class="text-subtitle-1 font-weight-bold">{{ item.title }}</v-card-title>
+          <v-card-title class="text-subtitle-1 font-weight-bold">{{ item.title }}{{ item.version }}</v-card-title>
           <v-card-text class="text-body-2">
             {{ item.description }}
             <div class="mt-2">
