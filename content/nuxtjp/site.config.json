@@ -1,0 +1,299 @@
+{
+  "schema": "nuxtjp://localized-site/site-config/v1",
+  "siteId": "nuxtjp",
+  "serviceId": "nuxtjp",
+  "origin": "https://nuxt.jp",
+  "audienceScope": "japan",
+  "defaultLocale": "ja",
+  "fallbackLocale": "en",
+  "prefixDefaultLocale": false,
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "externalActions": false,
+  "content": {
+    "ja": {
+      "brand": "Nuxt Japan",
+      "tagline": "Nuxtと日本の開発者を、検証できる実装でつなぐ。",
+      "summary": "Nuxtの日本語情報、上流への参照、NuxtとローカルRust/V8を安全に接続する再利用可能なパッケージとサンプルを公開します。",
+      "features": [
+        {
+          "id": "upstream",
+          "title": "上流追随",
+          "summary": "公式情報への参照と差分を明示します。"
+        },
+        {
+          "id": "local-runtime",
+          "title": "ローカルUI基盤",
+          "summary": "端末内処理とブラウザーの境界を版付き契約で扱います。"
+        },
+        {
+          "id": "examples",
+          "title": "検証済みサンプル",
+          "summary": "再現可能なNuxt構成と確認結果を提供します。"
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "概要",
+          "summary": "Nuxtの日本語情報、上流への参照、NuxtとローカルRust/V8を安全に接続する再利用可能なパッケージとサンプルを公開します。",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "目的",
+              "body": [
+                "Nuxtの日本語情報、上流への参照、NuxtとローカルRust/V8を安全に接続する再利用可能なパッケージとサンプルを公開します。"
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "提供するもの",
+              "body": [
+                "公式情報への参照と差分を明示します。",
+                "端末内処理とブラウザーの境界を版付き契約で扱います。",
+                "再現可能なNuxt構成と確認結果を提供します。"
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "責任境界",
+              "body": [
+                "Nuxt JapanはNuxt公式運営主体ではありません。商標、互換性、上流の最新情報は公式資料を正本として確認してください。"
+              ]
+            },
+            {
+              "id": "current-packages",
+              "title": "公開パッケージと管理元",
+              "body": [
+                "2026-10-11 時点で上記の版は公式 npm registry に存在します。配布の存在は、利用側の安全性検証や本番配備の完了を意味しません。",
+                "@nuxtjp/ui 0.1.4 — https://github.com/nuxtjp/nuxtjp-ui",
+                "@nuxtjp/local-runtime 0.1.4 — https://github.com/nuxtjp/nuxt-local-runtime",
+                "@nuxtjp/localized-site 0.1.4 — https://github.com/nuxtjp/nuxt-localized-site",
+                "@nuxtjp/provider-auth 0.1.1 — https://github.com/nuxtjp/nuxt-provider-auth",
+                "@nuxtjp/dependency-security 0.1.0 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-dependency-security",
+                "@nuxtjp/management-layout 0.4.3 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-management-layout"
+              ]
+            },
+            {
+              "id": "archived-successors",
+              "title": "archive 済みリポジトリの移管先",
+              "body": [
+                "nuxt-managed-resources → nuxtjp-ui/packages/nuxt-managed-resources",
+                "nuxt-management-layout → nuxtjp-ui/packages/nuxt-management-layout",
+                "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
+                "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "はじめに",
+          "summary": "目的に合うガイドまたはパッケージを選び、対象バージョンと上流リンクを確認してからローカルでサンプルを実行してください。",
+          "sections": [
+            {
+              "id": "start",
+              "title": "利用の流れ",
+              "body": [
+                "目的に合うガイドまたはパッケージを選び、対象バージョンと上流リンクを確認してからローカルでサンプルを実行してください。"
+              ]
+            },
+            {
+              "id": "language",
+              "title": "言語とURL",
+              "body": [
+                "日本語と英語は同じ情報構造を持ち、言語切替後も同じページを表示します。"
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "現在の提供状態",
+              "body": [
+                "このリポジトリはローカル検証用です。公開、認証、課金、外部サービス変更は行いません。"
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "安全性と公開境界",
+          "summary": "Nuxt JapanはNuxt公式運営主体ではありません。商標、互換性、上流の最新情報は公式資料を正本として確認してください。",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "公開する情報",
+              "body": [
+                "Nuxt Japanの公開面には、公開承認された説明と文書だけを含めます。"
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "保持しない情報",
+              "body": [
+                "資格情報、顧客情報、個人の機微情報、非公開ソース、解析識別子は設定に含めません。"
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "制約",
+              "body": [
+                "Nuxt JapanはNuxt公式運営主体ではありません。商標、互換性、上流の最新情報は公式資料を正本として確認してください。"
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "プライバシー",
+        "summary": "このローカル公開面はCookie、解析識別子、問い合わせ内容を収集しません。収集機能は別途の審査と同意設計後にのみ追加します。"
+      },
+      "contact": {
+        "label": "お問い合わせ",
+        "summary": "問い合わせ送信機能は未接続です。責任部門と保管条件を承認した公開窓口だけを将来表示します。"
+      }
+    },
+    "en": {
+      "brand": "Nuxt Japan",
+      "tagline": "Connecting Nuxt and developers in Japan through verifiable implementations.",
+      "summary": "Japanese Nuxt guidance, upstream references, and reusable packages and examples for securely connecting Nuxt with local Rust/V8 runtimes.",
+      "features": [
+        {
+          "id": "upstream",
+          "title": "Upstream tracking",
+          "summary": "Makes upstream sources and local differences explicit."
+        },
+        {
+          "id": "local-runtime",
+          "title": "Local UI foundation",
+          "summary": "Uses versioned contracts between device-local processing and the browser."
+        },
+        {
+          "id": "examples",
+          "title": "Verified examples",
+          "summary": "Provides reproducible Nuxt configurations and verification results."
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Overview",
+          "summary": "Japanese Nuxt guidance, upstream references, and reusable packages and examples for securely connecting Nuxt with local Rust/V8 runtimes.",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "Purpose",
+              "body": [
+                "Japanese Nuxt guidance, upstream references, and reusable packages and examples for securely connecting Nuxt with local Rust/V8 runtimes."
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "What we provide",
+              "body": [
+                "Makes upstream sources and local differences explicit.",
+                "Uses versioned contracts between device-local processing and the browser.",
+                "Provides reproducible Nuxt configurations and verification results."
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "Responsibility boundary",
+              "body": [
+                "Nuxt Japan is not the official Nuxt operator. Treat official sources as authoritative for trademarks, compatibility, and current upstream information."
+              ]
+            },
+            {
+              "id": "current-packages",
+              "title": "Published packages and source owners",
+              "body": [
+                "These versions are available from the official npm registry as of 2026-10-11. Registry availability does not establish consumer security acceptance or production deployment.",
+                "@nuxtjp/ui 0.1.4 — https://github.com/nuxtjp/nuxtjp-ui",
+                "@nuxtjp/local-runtime 0.1.4 — https://github.com/nuxtjp/nuxt-local-runtime",
+                "@nuxtjp/localized-site 0.1.4 — https://github.com/nuxtjp/nuxt-localized-site",
+                "@nuxtjp/provider-auth 0.1.1 — https://github.com/nuxtjp/nuxt-provider-auth",
+                "@nuxtjp/dependency-security 0.1.0 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-dependency-security",
+                "@nuxtjp/management-layout 0.4.3 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-management-layout"
+              ]
+            },
+            {
+              "id": "archived-successors",
+              "title": "Successors of archived repositories",
+              "body": [
+                "nuxt-managed-resources → nuxtjp-ui/packages/nuxt-managed-resources",
+                "nuxt-management-layout → nuxtjp-ui/packages/nuxt-management-layout",
+                "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
+                "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Getting started",
+          "summary": "Choose a guide or package, confirm its version and upstream link, then run the example locally.",
+          "sections": [
+            {
+              "id": "start",
+              "title": "How to begin",
+              "body": [
+                "Choose a guide or package, confirm its version and upstream link, then run the example locally."
+              ]
+            },
+            {
+              "id": "language",
+              "title": "Languages and URLs",
+              "body": [
+                "Japanese and English use the same information structure and preserve the current page when switching language."
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "Current availability",
+              "body": [
+                "This repository is for local verification. It does not publish, authenticate, bill, or mutate external services."
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Safety and publication boundary",
+          "summary": "Nuxt Japan is not the official Nuxt operator. Treat official sources as authoritative for trademarks, compatibility, and current upstream information.",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "Public information",
+              "body": [
+                "The Nuxt Japan public surface contains only approved public descriptions and documentation."
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "Information not held here",
+              "body": [
+                "Configuration excludes credentials, customer records, sensitive personal data, private source, and analytics identifiers."
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "Limitations",
+              "body": [
+                "Nuxt Japan is not the official Nuxt operator. Treat official sources as authoritative for trademarks, compatibility, and current upstream information."
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "Privacy",
+        "summary": "This local public surface collects no cookies, analytics identifiers, or inquiry content. Collection may be added only after separate review and consent design."
+      },
+      "contact": {
+        "label": "Contact",
+        "summary": "Inquiry submission is not connected. A public channel will be shown only after its responsible team and retention terms are approved."
+      }
+    }
+  }
+}
