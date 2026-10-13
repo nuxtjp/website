@@ -1,0 +1,129 @@
+{
+  "repository": "nuxtjp/website",
+  "purpose": "Maintain the current module-site and explicitly separated historical Japanese Nuxt application/content.",
+  "responsibility_boundary": "Licensing is component-scoped: module-site and content retain their own LICENSE/NOTICE. Do not infer a repository-wide license for legacy main-app assets or delete an active host during source cleanup.",
+  "packages": [
+    {
+      "manifest": "main-app/package.json",
+      "package": "nuxtjp-main",
+      "ecosystem": "npm",
+      "description": null,
+      "interfaces": {
+        "exports": {},
+        "bin": {},
+        "main": null,
+        "types": null
+      },
+      "declared_commands": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+      }
+    },
+    {
+      "manifest": "module-site/package.json",
+      "package": "@nuxtjp/public-module-site",
+      "ecosystem": "npm",
+      "description": null,
+      "interfaces": {
+        "exports": {},
+        "bin": {},
+        "main": null,
+        "types": null
+      },
+      "declared_commands": {
+        "dev": "nuxt dev --host 127.0.0.1",
+        "build": "nuxt build",
+        "typecheck": "nuxt typecheck"
+      }
+    }
+  ],
+  "schema_definitions": [],
+  "test_sources": [],
+  "example_sources": [
+    "main-app/content/playground/index.md"
+  ],
+  "workflow_definitions": [
+    {
+      "path": ".github/workflows/content-validation.yml",
+      "jobs": [
+        {
+          "job": "content",
+          "condition": null,
+          "runs_on": "ubuntu-latest",
+          "steps": [
+            {
+              "name": null,
+              "run": null,
+              "uses": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+              "condition": null
+            },
+            {
+              "name": null,
+              "run": null,
+              "uses": "actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+              "condition": null
+            },
+            {
+              "name": "Validate the migrated public site configuration",
+              "run": "npm exec --yes --package=@nuxtjp/localized-site@0.1.4 -- nuxtjp-localized-site validate --content-root content/nuxtjp",
+              "uses": null,
+              "condition": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/site-first-app.yml",
+      "jobs": [
+        {
+          "job": "verify",
+          "condition": null,
+          "runs_on": "ubuntu-24.04",
+          "steps": [
+            {
+              "name": null,
+              "run": null,
+              "uses": "actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+              "condition": null
+            },
+            {
+              "name": null,
+              "run": null,
+              "uses": "actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+              "condition": null
+            },
+            {
+              "name": null,
+              "run": "npm install --global --ignore-scripts --no-audit --no-fund pnpm@10.29.3",
+              "uses": null,
+              "condition": null
+            },
+            {
+              "name": null,
+              "run": "pnpm install --frozen-lockfile --store-dir \"$RUNNER_TEMP/site-first-store\" --registry=https://registry.npmjs.org",
+              "uses": null,
+              "condition": null
+            },
+            {
+              "name": null,
+              "run": "pnpm typecheck",
+              "uses": null,
+              "condition": null
+            },
+            {
+              "name": null,
+              "run": "pnpm build",
+              "uses": null,
+              "condition": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence_policy": "Declarations and source paths are not proof of an executed acceptance. Exact CI head and result are recorded separately. No live accounts or production acceptance is inferred."
+}
