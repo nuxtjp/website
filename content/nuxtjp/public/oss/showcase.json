@@ -1,0 +1,280 @@
+{
+  "schema": "nuxtjp://showcase/v1",
+  "owner": "nuxtjp",
+  "observedAt": "2026-10-13T04:06:00Z",
+  "entries": [
+    {
+      "id": "nuxtjp-site-builder",
+      "kind": "oss",
+      "name": {
+        "ja": "site-builder",
+        "en": "site-builder"
+      },
+      "summary": {
+        "ja": "設定から日英の紹介・文書サイトを構築するNuxt共通部品。OSS showcaseの拡張は0.2.2候補です。",
+        "en": "Nuxt building blocks for configured bilingual presentation and docs. Integrated OSS pages are a 0.2.2 candidate."
+      },
+      "repository": "https://github.com/nuxtjp/site-builder",
+      "homepage": "https://github.com/nuxtjp/site-builder",
+      "license": "Apache-2.0",
+      "metrics": [
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/localized-site",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 872,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Flocalized-site"
+        }
+      ]
+    },
+    {
+      "id": "nuxtjp-nuxt-interaction-fixture",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxt-interaction-fixture",
+        "en": "nuxt-interaction-fixture"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxt-interaction-fixture の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "Rustの処理、通信、Nuxtの画面を通した操作を、検証用アプリで確認できます。 / Test a complete declared interaction across a Rust handler, transport and Nuxt browser view."
+      },
+      "repository": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+      "homepage": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "nuxtjp-declarative-ui",
+      "kind": "oss",
+      "name": {
+        "ja": "declarative-ui",
+        "en": "declarative-ui"
+      },
+      "summary": {
+        "ja": "Nuxtで宣言的なview・interactionを組み込むモジュール。",
+        "en": "Nuxt composition for declarative views and interactions."
+      },
+      "repository": "https://github.com/nuxtjp/declarative-ui",
+      "homepage": "https://github.com/nuxtjp/declarative-ui",
+      "license": "Apache-2.0",
+      "metrics": [
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/declarative-ui",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "unavailable",
+          "downloads": null,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Fdeclarative-ui"
+        }
+      ]
+    },
+    {
+      "id": "nuxtjp-nuxt-provider-auth",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxt-provider-auth",
+        "en": "nuxt-provider-auth"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxt-provider-auth の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "外部サービスの認証に必要な入力と進行状態を表示し、利用アプリへ開始要求を渡せます。 / Present the choices and progress of an external-service sign-in without embedding provider credentials in the UI module."
+      },
+      "repository": "https://github.com/nuxtjp/nuxt-provider-auth",
+      "homepage": "https://github.com/nuxtjp/nuxt-provider-auth",
+      "license": "Apache-2.0",
+      "metrics": [
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/provider-auth",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 308,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Fprovider-auth"
+        }
+      ]
+    },
+    {
+      "id": "nuxtjp-nuxt-local-runtime",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxt-local-runtime",
+        "en": "nuxt-local-runtime"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxt-local-runtime の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "利用者の明示操作で、ブラウザ画面から設定済みのローカルRust環境へ接続できます。 / Connect a browser interface to one explicitly configured local Rust runtime."
+      },
+      "repository": "https://github.com/nuxtjp/nuxt-local-runtime",
+      "homepage": "https://github.com/nuxtjp/nuxt-local-runtime",
+      "license": "Apache-2.0",
+      "metrics": [
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/local-runtime",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 836,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Flocal-runtime"
+        }
+      ]
+    },
+    {
+      "id": "nuxtjp-nuxtjp-ui",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxtjp-ui",
+        "en": "nuxtjp-ui"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxtjp-ui の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "日本語サービスのUIを、共通の部品・テーマ・言語設定で揃えられます。 / Add consistent Japanese-first UI components, theme tokens and locale behavior to a Nuxt application."
+      },
+      "repository": "https://github.com/nuxtjp/nuxtjp-ui",
+      "homepage": "https://github.com/nuxtjp/nuxtjp-ui",
+      "license": "Apache-2.0",
+      "metrics": [
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/ui",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 1001,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Fui"
+        },
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/dependency-security",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 290,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Fdependency-security"
+        },
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/managed-resources",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 296,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Fmanaged-resources"
+        },
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/management-layout",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 291,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Fmanagement-layout"
+        },
+        {
+          "registry": "npm",
+          "package": "@nuxtjp/operations-console",
+          "period": {
+            "start": "2026-09-13",
+            "end": "2026-10-12"
+          },
+          "observedAt": "2026-10-13T04:06:00Z",
+          "status": "available",
+          "downloads": 303,
+          "source": "https://api.npmjs.org/downloads/point/2026-09-13:2026-10-12/%40nuxtjp%2Foperations-console"
+        }
+      ]
+    },
+    {
+      "id": "nuxtjp-nuxt-identity-client",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxt-identity-client",
+        "en": "nuxt-identity-client"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxt-identity-client の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "ログイン、アカウント、認証方法、登録端末の画面を共通化できます。 / Provide consistent sign-in, account, authenticator and device-management screens in a Nuxt service."
+      },
+      "repository": "https://github.com/nuxtjp/nuxt-identity-client",
+      "homepage": "https://github.com/nuxtjp/nuxt-identity-client",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "nuxtjp-nuxt-commerce",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxt-commerce",
+        "en": "nuxt-commerce"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxt-commerce の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "決済・利用権の状態を表示し、明示的な購入手続きへの引き継ぎ要求を作れます。 / Display payment and entitlement state and request an explicit checkout handoff."
+      },
+      "repository": "https://github.com/nuxtjp/nuxt-commerce",
+      "homepage": "https://github.com/nuxtjp/nuxt-commerce",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "nuxtjp-nuxt-vuetify-layer",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxt-vuetify-layer",
+        "en": "nuxt-vuetify-layer"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxt-vuetify-layer の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "Nuxt 3とVuetify 3を組み合わせ、プラグイン・CSS・基本レイアウトを再利用できます。 / Start a Nuxt application with Vuetify plugins, styles and a basic layout already composed."
+      },
+      "repository": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+      "homepage": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+      "license": "MIT",
+      "metrics": []
+    },
+    {
+      "id": "nuxtjp-nuxt-v8-view-worker",
+      "kind": "oss",
+      "name": {
+        "ja": "nuxt-v8-view-worker",
+        "en": "nuxt-v8-view-worker"
+      },
+      "summary": {
+        "ja": "nuxtjp/nuxt-v8-view-worker の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "許可された単純な入力から、制限されたV8環境で表示断片を生成できます。 / Render declared scalar input into a limited view fragment using a verified Rust/V8 worker."
+      },
+      "repository": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+      "homepage": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+      "license": "Apache-2.0",
+      "metrics": []
+    }
+  ]
+}

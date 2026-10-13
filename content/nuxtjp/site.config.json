@@ -85,6 +85,13 @@
                 "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
                 "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
               ]
+            },
+            {
+              "id": "page-feedback",
+              "title": "ページから改善へ",
+              "body": [
+                "対象ページ、目的、期待する挙動、package版と公開できる再現手順をownerへ共有してください。配置の調整は実際の利用とフィードバックから行います。秘密鍵、token、実顧客データは送らないでください。"
+              ]
             }
           ]
         },
@@ -225,6 +232,13 @@
                 "nuxt-management-layout → nuxtjp-ui/packages/nuxt-management-layout",
                 "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
                 "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
+              ]
+            },
+            {
+              "id": "page-feedback",
+              "title": "From page to feedback",
+              "body": [
+                "Share the page, purpose, expected behavior, package version and public reproduction steps with the owner. Refine placement using actual usage and feedback. Do not share tokens, keys or customer data."
               ]
             }
           ]
