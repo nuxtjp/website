@@ -1,0 +1,1 @@
+export default defineNuxtConfig({ devtools: { enabled: false }, modules: [['@nuxtjp/localized-site', { contentRoot: '../content/nuxtjp', maintenance: false }]], nitro: { prerender: { failOnError: true } } })
