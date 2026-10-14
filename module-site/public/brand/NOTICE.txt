@@ -1,0 +1,5 @@
+NuxtJP organization icon, preserved without modification.
+Source: https://avatars.githubusercontent.com/u/173282481?v=4&s=256
+Organization: https://github.com/nuxtjp
+SHA256: 049bf398fe243309d3153c254bff7ffb4552c07fb3dd3ffeb5a09f664e40996d
+Brand artwork is not included in the Apache-2.0 software license. Existing brand/content terms in content/nuxtjp/LICENSE-ASSETS apply only within their stated rights scope; no rights to third-party trademarks are granted.

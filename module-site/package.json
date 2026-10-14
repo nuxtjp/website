@@ -12,7 +12,8 @@
   "scripts": {
     "dev": "nuxt dev --host 127.0.0.1",
     "build": "nuxt build",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjp/localized-site": "0.2.3",
