@@ -19,6 +19,11 @@ export default defineNuxtModule({
       }
     })
     nuxt.options.css.push(resolver.resolve('../app/assets/nuxt-japan.css'))
+    nuxt.options.nitro.publicAssets ??= []
+    nuxt.options.nitro.publicAssets.push({
+      dir: resolver.resolve('../../content/nuxtjp/public/oss'),
+      baseURL: '/oss'
+    })
     nuxt.options.app.head.link ??= []
     nuxt.options.app.head.link.push({ rel: 'icon', type: 'image/png', href: '/brand/nuxtjp.png' })
   }
