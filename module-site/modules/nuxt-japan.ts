@@ -22,7 +22,8 @@ export default defineNuxtModule({
     nuxt.options.nitro.publicAssets.push({
       dir: resolver.resolve('../../content/nuxtjp/public/oss'),
       baseURL: '/oss',
-      maxAge: 0
+      maxAge: 0,
+      fallthrough: true
     })
     nuxt.options.app.head.link ??= []
     nuxt.options.app.head.link.push({ rel: 'icon', type: 'image/png', href: '/brand/nuxtjp.png' })
