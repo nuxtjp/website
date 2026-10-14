@@ -27,3 +27,8 @@ jobs:
         env:
           NUXT_TELEMETRY_DISABLED: '1'
           CI: 'true'
+      - name: Verify the public catalog export matches the source
+        run: |
+          cmp ../content/nuxtjp/public/oss/showcase.json .output/public/oss/showcase.json
+          test -f .output/public/oss/nuxtjp-site-builder/index.html
+          test -f .output/public/en/oss/nuxtjp-site-builder/index.html
