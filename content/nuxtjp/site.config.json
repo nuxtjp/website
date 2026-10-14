@@ -14,24 +14,24 @@
   "externalActions": false,
   "content": {
     "ja": {
-      "brand": "Nuxt Japan",
-      "tagline": "Nuxtと日本の開発者を、検証できる実装でつなぐ。",
-      "summary": "Nuxtの日本語情報、上流への参照、NuxtとローカルRust/V8を安全に接続する再利用可能なパッケージとサンプルを公開します。",
+      "brand": "NuxtJP",
+      "tagline": "Nuxtでつくる、つながる体験。",
+      "summary": "UI、宣言的な操作、認証の入口、ローカルRust/V8との接続。NuxtJPは、これらを再利用できるNuxtの部品とサンプルとして育てています。",
       "features": [
         {
-          "id": "upstream",
-          "title": "上流追随",
-          "summary": "公式情報への参照と差分を明示します。"
+          "id": "focus-1",
+          "title": "画面を組み立てる",
+          "summary": "宣言的なUIと操作を、共通のNuxt部品から構成します。"
         },
         {
-          "id": "local-runtime",
-          "title": "ローカルUI基盤",
-          "summary": "端末内処理とブラウザーの境界を版付き契約で扱います。"
+          "id": "focus-2",
+          "title": "ローカル処理へつなぐ",
+          "summary": "ブラウザとローカルRust/V8環境を、明示した接続先でつなぎます。"
         },
         {
-          "id": "examples",
-          "title": "検証済みサンプル",
-          "summary": "再現可能なNuxt構成と確認結果を提供します。"
+          "id": "focus-3",
+          "title": "日英で伝える",
+          "summary": "紹介サイトと文書を、同じ基盤から日本語・英語で届けます。"
         }
       ],
       "docs": {
@@ -162,24 +162,24 @@
       }
     },
     "en": {
-      "brand": "Nuxt Japan",
-      "tagline": "Connecting Nuxt and developers in Japan through verifiable implementations.",
-      "summary": "Japanese Nuxt guidance, upstream references, and reusable packages and examples for securely connecting Nuxt with local Rust/V8 runtimes.",
+      "brand": "NuxtJP",
+      "tagline": "Connected experiences, built with Nuxt.",
+      "summary": "NuxtJP develops reusable Nuxt modules and examples for interfaces, declared interactions, authentication entry points and connections to local Rust/V8 environments.",
       "features": [
         {
-          "id": "upstream",
-          "title": "Upstream tracking",
-          "summary": "Makes upstream sources and local differences explicit."
+          "id": "focus-1",
+          "title": "Compose interfaces",
+          "summary": "Build declared views and interactions from shared Nuxt components."
         },
         {
-          "id": "local-runtime",
-          "title": "Local UI foundation",
-          "summary": "Uses versioned contracts between device-local processing and the browser."
+          "id": "focus-2",
+          "title": "Connect local runtimes",
+          "summary": "Connect browser interfaces to explicitly configured Rust/V8 environments."
         },
         {
-          "id": "examples",
-          "title": "Verified examples",
-          "summary": "Provides reproducible Nuxt configurations and verification results."
+          "id": "focus-3",
+          "title": "Publish in two languages",
+          "summary": "Present projects and documentation in Japanese and English on one foundation."
         }
       ],
       "docs": {
