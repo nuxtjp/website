@@ -37,3 +37,8 @@ __pycache__/
 /*.profraw
 /*.profdata
 /*.egg-info/
+
+# Generated module-site build outputs.
+/module-site/.nuxt/
+/module-site/.output/
+/module-site/dist
