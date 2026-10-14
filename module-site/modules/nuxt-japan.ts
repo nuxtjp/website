@@ -1,11 +1,10 @@
-import { addLayout, createResolver, defineNuxtModule, extendPages } from 'nuxt/kit'
+import { createResolver, defineNuxtModule, extendPages } from 'nuxt/kit'
 
 // Site-owned presentation; shared localization, catalog validation and SEO stay
 // in the registry module. These hooks run after its routes have been registered.
 export default defineNuxtModule({
   setup(_options, nuxt) {
     const resolver = createResolver(import.meta.url)
-    addLayout(resolver.resolve('../app/layouts/nuxt-japan.vue'), 'nuxt-japan')
     extendPages(pages => {
       for (const page of pages) {
         page.meta = { ...page.meta, layout: 'nuxt-japan' }
@@ -22,7 +21,8 @@ export default defineNuxtModule({
     nuxt.options.nitro.publicAssets ??= []
     nuxt.options.nitro.publicAssets.push({
       dir: resolver.resolve('../../content/nuxtjp/public/oss'),
-      baseURL: '/oss'
+      baseURL: '/oss',
+      maxAge: 0
     })
     nuxt.options.app.head.link ??= []
     nuxt.options.app.head.link.push({ rel: 'icon', type: 'image/png', href: '/brand/nuxtjp.png' })
