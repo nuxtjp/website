@@ -15,8 +15,8 @@
   "content": {
     "ja": {
       "brand": "NuxtJP",
-      "tagline": "Nuxtでつくる、つながる体験。",
-      "summary": "UI、宣言的な操作、認証の入口、ローカルRust/V8との接続。NuxtJPは、これらを再利用できるNuxtの部品とサンプルとして育てています。",
+      "tagline": "Nuxtから、次のWeb体験へ。",
+      "summary": "Nuxtの特徴と導入を日本語で学び、NuxtJPが保守するモジュールと関連ライブラリを用途から選べます。",
       "features": [
         {
           "id": "focus-1",
@@ -37,116 +37,84 @@
       "docs": {
         "overview": {
           "slug": "/docs",
-          "title": "概要",
-          "summary": "Nuxtの日本語情報、上流への参照、NuxtとローカルRust/V8を安全に接続する再利用可能なパッケージとサンプルを公開します。",
+          "title": "Nuxtとは",
+          "summary": "Vueを基盤とするWebフレームワーク。ページ、データ取得、レンダリング、サーバー機能をひとつの開発環境で扱います。",
           "sections": [
             {
-              "id": "purpose",
-              "title": "目的",
+              "id": "foundation",
+              "title": "VueからWebアプリケーションへ",
               "body": [
-                "Nuxtの日本語情報、上流への参照、NuxtとローカルRust/V8を安全に接続する再利用可能なパッケージとサンプルを公開します。"
+                "Vueコンポーネントで画面を記述し、ファイルベースのルーティングや自動インポートを活用できます。型情報と開発ツールを使いながら、アプリケーションを構成します。"
               ]
             },
             {
-              "id": "offering",
-              "title": "提供するもの",
+              "id": "rendering",
+              "title": "用途に合わせたレンダリング",
               "body": [
-                "公式情報への参照と差分を明示します。",
-                "端末内処理とブラウザーの境界を版付き契約で扱います。",
-                "再現可能なNuxt構成と確認結果を提供します。"
+                "サーバー描画、クライアント描画、静的生成など、公開する内容と運用に合わせた構成を選べます。利用条件と具体的な設定はNuxt公式ドキュメントで確認してください。"
               ]
             },
             {
-              "id": "boundary",
-              "title": "責任境界",
+              "id": "modules",
+              "title": "モジュールで機能を追加する",
               "body": [
-                "Nuxt JapanはNuxt公式運営主体ではありません。商標、互換性、上流の最新情報は公式資料を正本として確認してください。"
-              ]
-            },
-            {
-              "id": "current-packages",
-              "title": "公開パッケージと管理元",
-              "body": [
-                "2026-10-11 時点で上記の版は公式 npm registry に存在します。配布の存在は、利用側の安全性検証や本番配備の完了を意味しません。",
-                "@nuxtjp/ui 0.1.4 — https://github.com/nuxtjp/nuxtjp-ui",
-                "@nuxtjp/local-runtime 0.1.4 — https://github.com/nuxtjp/nuxt-local-runtime",
-                "@nuxtjp/localized-site 0.1.4 — https://github.com/nuxtjp/nuxt-localized-site",
-                "@nuxtjp/provider-auth 0.1.1 — https://github.com/nuxtjp/nuxt-provider-auth",
-                "@nuxtjp/dependency-security 0.1.0 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-dependency-security",
-                "@nuxtjp/management-layout 0.4.3 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-management-layout"
-              ]
-            },
-            {
-              "id": "archived-successors",
-              "title": "archive 済みリポジトリの移管先",
-              "body": [
-                "nuxt-managed-resources → nuxtjp-ui/packages/nuxt-managed-resources",
-                "nuxt-management-layout → nuxtjp-ui/packages/nuxt-management-layout",
-                "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
-                "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
-              ]
-            },
-            {
-              "id": "page-feedback",
-              "title": "ページから改善へ",
-              "body": [
-                "対象ページ、目的、期待する挙動、package版と公開できる再現手順をownerへ共有してください。配置の調整は実際の利用とフィードバックから行います。秘密鍵、token、実顧客データは送らないでください。"
+                "モジュールはNuxtの構成を拡張します。NuxtJPの一覧にはNuxtモジュールに加え、UIライブラリ、認証クライアント、ローカル処理の基盤も含みます。各リポジトリのREADMEと利用例で導入方法を確認できます。"
               ]
             }
           ]
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "はじめに",
-          "summary": "目的に合うガイドまたはパッケージを選び、対象バージョンと上流リンクを確認してからローカルでサンプルを実行してください。",
+          "title": "Nuxtをはじめる",
+          "summary": "環境を準備し、新しいプロジェクトを作成して、最初のVueページを動かしましょう。",
           "sections": [
             {
-              "id": "start",
-              "title": "利用の流れ",
+              "id": "environment",
+              "title": "1. 開発環境を用意する",
               "body": [
-                "目的に合うガイドまたはパッケージを選び、対象バージョンと上流リンクを確認してからローカルでサンプルを実行してください。"
+                "Node.jsの対応するLTS版と、npmまたはpnpmを用意します。nvmを利用している場合は、対応するNode.jsをインストールして選択してください。最新の対応条件は下の公式導入ガイドを確認してください。"
               ]
             },
             {
-              "id": "language",
-              "title": "言語とURL",
+              "id": "create",
+              "title": "2. プロジェクトを作成する",
               "body": [
-                "日本語と英語は同じ情報構造を持ち、言語切替後も同じページを表示します。"
+                "以下をターミナルで実行し、作成時の案内に従って依存関係をインストールします。開発サーバーが表示したURLをブラウザで開いてください。"
               ]
             },
             {
-              "id": "availability",
-              "title": "現在の提供状態",
+              "id": "first-page",
+              "title": "3. Vueコンポーネントを編集する",
               "body": [
-                "このリポジトリはローカル検証用です。公開、認証、課金、外部サービス変更は行いません。"
+                "app/app.vueを編集し、開発サーバーで変更を確認します。ページを分ける場合はapp/pagesにVueファイルを配置します。さらに必要な機能をモジュール一覧から選んでください。"
               ]
             }
           ]
         },
         "security": {
           "slug": "/docs/security",
-          "title": "安全性と公開境界",
-          "summary": "Nuxt JapanはNuxt公式運営主体ではありません。商標、互換性、上流の最新情報は公式資料を正本として確認してください。",
+          "title": "このサイトについて",
+          "summary": "Nuxtの日本語導入ガイドと、NuxtJPが保守する公開モジュール・ライブラリを紹介します。",
           "sections": [
             {
-              "id": "public-data",
-              "title": "公開する情報",
+              "id": "sources",
+              "title": "公式情報とNuxtJPの役割",
               "body": [
-                "Nuxt Japanの公開面には、公開承認された説明と文書だけを含めます。"
+                "Nuxtの仕様と互換性の正本は公式ドキュメントです。NuxtJPは独立して運営するガイドとパッケージの紹介サイトで、Nuxt公式の運営主体ではありません。各パッケージの仕様と利用条件は所有リポジトリで確認してください。"
               ]
             },
             {
-              "id": "private-data",
-              "title": "保持しない情報",
+              "id": "metrics",
+              "title": "ダウンロード数の読み方",
               "body": [
-                "資格情報、顧客情報、個人の機微情報、非公開ソース、解析識別子は設定に含めません。"
+                "数値は公開レジストリから取得した期間付きの観測です。未取得・期限切れを0件に置き換えず、ダウンロード数を利用者数として扱いません。"
               ]
             },
             {
-              "id": "limits",
-              "title": "制約",
+              "id": "privacy",
+              "title": "公開情報とプライバシー",
               "body": [
-                "Nuxt JapanはNuxt公式運営主体ではありません。商標、互換性、上流の最新情報は公式資料を正本として確認してください。"
+                "このサイトは公開ドキュメントと公開レジストリの観測を使用し、独自のアクセス解析や問い合わせフォームは設置していません。Cloudflareとリンク先サービスの取り扱いは各提供者のポリシーに従います。"
               ]
             }
           ]
@@ -163,8 +131,8 @@
     },
     "en": {
       "brand": "NuxtJP",
-      "tagline": "Connected experiences, built with Nuxt.",
-      "summary": "NuxtJP develops reusable Nuxt modules and examples for interfaces, declared interactions, authentication entry points and connections to local Rust/V8 environments.",
+      "tagline": "Build your next web experience with Nuxt.",
+      "summary": "Discover Nuxt, get started with Japanese guidance, and explore modules and companion libraries maintained by NuxtJP.",
       "features": [
         {
           "id": "focus-1",
@@ -185,116 +153,84 @@
       "docs": {
         "overview": {
           "slug": "/docs",
-          "title": "Overview",
-          "summary": "Japanese Nuxt guidance, upstream references, and reusable packages and examples for securely connecting Nuxt with local Rust/V8 runtimes.",
+          "title": "Discover Nuxt",
+          "summary": "A web framework built on Vue, bringing pages, data fetching, rendering and server capabilities into one development environment.",
           "sections": [
             {
-              "id": "purpose",
-              "title": "Purpose",
+              "id": "foundation",
+              "title": "From Vue to a web application",
               "body": [
-                "Japanese Nuxt guidance, upstream references, and reusable packages and examples for securely connecting Nuxt with local Rust/V8 runtimes."
+                "Write interfaces with Vue components and use file-based routing and auto-imports. Compose your application with type information and development tools."
               ]
             },
             {
-              "id": "offering",
-              "title": "What we provide",
+              "id": "rendering",
+              "title": "Rendering for your use case",
               "body": [
-                "Makes upstream sources and local differences explicit.",
-                "Uses versioned contracts between device-local processing and the browser.",
-                "Provides reproducible Nuxt configurations and verification results."
+                "Choose server rendering, client rendering or static generation according to your content and hosting needs. Check the official Nuxt documentation for requirements and configuration."
               ]
             },
             {
-              "id": "boundary",
-              "title": "Responsibility boundary",
+              "id": "modules",
+              "title": "Extend with modules",
               "body": [
-                "Nuxt Japan is not the official Nuxt operator. Treat official sources as authoritative for trademarks, compatibility, and current upstream information."
-              ]
-            },
-            {
-              "id": "current-packages",
-              "title": "Published packages and source owners",
-              "body": [
-                "These versions are available from the official npm registry as of 2026-10-11. Registry availability does not establish consumer security acceptance or production deployment.",
-                "@nuxtjp/ui 0.1.4 — https://github.com/nuxtjp/nuxtjp-ui",
-                "@nuxtjp/local-runtime 0.1.4 — https://github.com/nuxtjp/nuxt-local-runtime",
-                "@nuxtjp/localized-site 0.1.4 — https://github.com/nuxtjp/nuxt-localized-site",
-                "@nuxtjp/provider-auth 0.1.1 — https://github.com/nuxtjp/nuxt-provider-auth",
-                "@nuxtjp/dependency-security 0.1.0 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-dependency-security",
-                "@nuxtjp/management-layout 0.4.3 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-management-layout"
-              ]
-            },
-            {
-              "id": "archived-successors",
-              "title": "Successors of archived repositories",
-              "body": [
-                "nuxt-managed-resources → nuxtjp-ui/packages/nuxt-managed-resources",
-                "nuxt-management-layout → nuxtjp-ui/packages/nuxt-management-layout",
-                "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
-                "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
-              ]
-            },
-            {
-              "id": "page-feedback",
-              "title": "From page to feedback",
-              "body": [
-                "Share the page, purpose, expected behavior, package version and public reproduction steps with the owner. Refine placement using actual usage and feedback. Do not share tokens, keys or customer data."
+                "Modules extend Nuxt configuration. The NuxtJP catalog also includes UI libraries, identity clients and local execution foundations. Each repository documents its own installation and examples."
               ]
             }
           ]
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "Getting started",
-          "summary": "Choose a guide or package, confirm its version and upstream link, then run the example locally.",
+          "title": "Get started with Nuxt",
+          "summary": "Prepare your environment, create a project and run your first Vue page.",
           "sections": [
             {
-              "id": "start",
-              "title": "How to begin",
+              "id": "environment",
+              "title": "1. Prepare your environment",
               "body": [
-                "Choose a guide or package, confirm its version and upstream link, then run the example locally."
+                "Use a supported Node.js LTS release with npm or pnpm. With nvm, install and select a supported Node.js release. Check the official installation guide below for current requirements."
               ]
             },
             {
-              "id": "language",
-              "title": "Languages and URLs",
+              "id": "create",
+              "title": "2. Create a project",
               "body": [
-                "Japanese and English use the same information structure and preserve the current page when switching language."
+                "Run the commands below and follow the setup prompts to install dependencies. Open the URL printed by the development server."
               ]
             },
             {
-              "id": "availability",
-              "title": "Current availability",
+              "id": "first-page",
+              "title": "3. Edit your Vue component",
               "body": [
-                "This repository is for local verification. It does not publish, authenticate, bill, or mutate external services."
+                "Edit app/app.vue and see changes in the development server. Add Vue files under app/pages when you need separate routes, then explore modules for additional capabilities."
               ]
             }
           ]
         },
         "security": {
           "slug": "/docs/security",
-          "title": "Safety and publication boundary",
-          "summary": "Nuxt Japan is not the official Nuxt operator. Treat official sources as authoritative for trademarks, compatibility, and current upstream information.",
+          "title": "About this site",
+          "summary": "Japanese Nuxt getting-started guidance and public modules and libraries maintained by NuxtJP.",
           "sections": [
             {
-              "id": "public-data",
-              "title": "Public information",
+              "id": "sources",
+              "title": "Official sources and NuxtJP",
               "body": [
-                "The Nuxt Japan public surface contains only approved public descriptions and documentation."
+                "The official Nuxt documentation is authoritative for framework specifications and compatibility. NuxtJP independently maintains this guide and package directory; it is not the official Nuxt operator. Check the owning repository for each package’s API and terms."
               ]
             },
             {
-              "id": "private-data",
-              "title": "Information not held here",
+              "id": "metrics",
+              "title": "Reading download observations",
               "body": [
-                "Configuration excludes credentials, customer records, sensitive personal data, private source, and analytics identifiers."
+                "Counts are dated public-registry observations. Unavailable or stale data is not zero, and downloads are not unique users."
               ]
             },
             {
-              "id": "limits",
-              "title": "Limitations",
+              "id": "privacy",
+              "title": "Public information and privacy",
               "body": [
-                "Nuxt Japan is not the official Nuxt operator. Treat official sources as authoritative for trademarks, compatibility, and current upstream information."
+                "This site uses public documentation and registry observations, without its own analytics or inquiry form. Cloudflare and linked services apply their respective policies."
               ]
             }
           ]
