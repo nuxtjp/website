@@ -25,7 +25,5 @@ export default defineNuxtModule({
       maxAge: 0,
       fallthrough: true
     })
-    nuxt.options.app.head.link ??= []
-    nuxt.options.app.head.link.push({ rel: 'icon', type: 'image/png', href: '/brand/nuxtjp.png' })
   }
 })

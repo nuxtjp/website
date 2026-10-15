@@ -9,7 +9,7 @@ const ja = computed(() => site.locale.value === 'ja')
     <header class="nj-header">
       <div class="nj-container nj-header-inner">
         <NuxtLink class="nj-brand" :to="site.localePath(site.locale.value, '/')" aria-label="NuxtJP home">
-          <img src="/brand/nuxtjp.png" alt="" width="40" height="40">
+          <img src="/brand/icon.png" alt="" width="40" height="40">
           <span>Nuxt<span class="nj-green">JP</span></span>
         </NuxtLink>
         <nav :aria-label="ja ? '主要メニュー' : 'Main navigation'">
@@ -29,7 +29,6 @@ const ja = computed(() => site.locale.value === 'ja')
       <nav :aria-label="ja ? '関連リンク' : 'Related links'">
         <a href="https://nuxt.com">Nuxt ↗</a>
         <a href="https://github.com/nuxtjp">GitHub ↗</a>
-        <a href="https://coela.org">Coela ↗</a>
         <NuxtLink :to="site.localePath(site.locale.value, '/docs/security')">{{ ja ? 'このサイトについて' : 'About this site' }}</NuxtLink>
       </nav>
       <p class="nj-footer-note">{{ ja ? 'NuxtJPによる日本語の導入ガイドと独自モジュールの紹介サイトです。Nuxtの仕様・互換性は公式ドキュメントをご確認ください。' : 'Japanese guidance and independently maintained NuxtJP modules. See the official Nuxt documentation for framework specifications and compatibility.' }}</p>
