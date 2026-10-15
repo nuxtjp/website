@@ -34,7 +34,7 @@ const features = computed(() => ja.value ? [
       <div class="nj-workspace" :aria-label="ja ? 'NuxtのVueコンポーネント例' : 'A Vue component in Nuxt'">
         <div class="nj-workspace-bar"><span class="nj-window-dots" aria-hidden="true">● ● ●</span><span>app/app.vue</span><span class="nj-code-tag">Vue</span></div>
         <pre class="nj-example"><code>{{ example }}</code></pre>
-        <div class="nj-example-output"><span class="nj-eyebrow">PREVIEW</span><p>Hello, Nuxt<span>!</span></p><small>Vue + TypeScript + Nuxt</small></div>
+        <div class="nj-example-output"><img class="nj-preview-brand" src="/brand/icon.png" width="60" height="60" alt=""><span class="nj-eyebrow">PREVIEW</span><p>Hello, Nuxt<span>!</span></p><small>Vue + TypeScript + Nuxt</small></div>
         <div class="nj-workspace-status"><span class="nj-status-dot" /> {{ ja ? '小さなコンポーネントから、はじめよう。' : 'Start with a small component.' }}</div>
       </div>
     </div>
@@ -42,7 +42,7 @@ const features = computed(() => ja.value ? [
 
   <section id="discover" class="nj-section nj-container">
     <div class="nj-section-heading"><div><p class="nj-eyebrow">01 / DISCOVER NUXT</p><h2>{{ ja ? 'Web開発の土台を、ひとつに。' : 'One foundation for the web.' }}</h2></div><a class="nj-text-link" href="https://nuxt.com">{{ ja ? 'Nuxt公式サイト' : 'Official Nuxt website' }} ↗</a></div>
-    <div class="nj-feature-grid"><article v-for="feature in features" :key="feature.number"><span class="nj-feature-number">{{ feature.number }} /</span><h3>{{ feature.title }}</h3><p>{{ feature.text }}</p><a class="nj-text-link" :href="feature.link">{{ feature.label }} ↗</a></article></div>
+    <div class="nj-feature-grid"><article v-for="feature in features" :key="feature.number"><img class="nj-feature-icon" :src="`/brand/icons/${({ '01': 'flow', '02': 'layers', '03': 'code' } as Record<string, string>)[feature.number]}.svg`" width="36" height="36" alt="" loading="lazy"><span class="nj-feature-number">{{ feature.number }} /</span><h3>{{ feature.title }}</h3><p>{{ feature.text }}</p><a class="nj-text-link" :href="feature.link">{{ feature.label }} ↗</a></article></div>
   </section>
 
   <section class="nj-start-section">
@@ -54,7 +54,7 @@ const features = computed(() => ja.value ? [
 
   <section class="nj-section nj-container">
     <div class="nj-section-heading"><div><p class="nj-eyebrow">03 / EXTEND WITH MODULES</p><h2>{{ ja ? '必要な機能を、組み合わせる。' : 'Compose the capabilities you need.' }}</h2><p>{{ ja ? 'NuxtJPが保守するモジュールと関連ライブラリ。用途から選び、各リポジトリで使い方を確認できます。' : 'Modules and companion libraries maintained by NuxtJP. Find a purpose, then explore the source and usage guide.' }}</p></div><NuxtLink class="nj-text-link" :to="site.localePath(site.locale.value, '/oss')">{{ ja ? 'すべて見る' : 'View all' }} →</NuxtLink></div>
-    <div class="nj-module-grid"><NuxtLink v-for="entry in selected" :key="entry.id" class="nj-featured-module" :to="site.localePath(site.locale.value, `/oss/${entry.id}`)"><span class="nj-module-symbol" aria-hidden="true">{{ entry.id.endsWith('site-builder') ? '文' : entry.id.endsWith('declarative-ui') ? 'UI' : '{ }' }}</span><h3>{{ entry.name[site.locale.value] }}</h3><p>{{ entry.summary[site.locale.value] }}</p><span class="nj-text-link">{{ ja ? '構成と利用情報' : 'Explore the project' }} →</span></NuxtLink></div>
+    <div class="nj-module-grid"><NuxtLink v-for="entry in selected" :key="entry.id" class="nj-featured-module" :to="site.localePath(site.locale.value, `/oss/${entry.id}`)"><span class="nj-module-symbol" aria-hidden="true"><img :src="`/brand/icons/${entry.id.endsWith('site-builder') ? 'document' : entry.id.endsWith('declarative-ui') ? 'layers' : 'code'}.svg`" width="32" height="32" alt="" loading="lazy"></span><h3>{{ entry.name[site.locale.value] }}</h3><p>{{ entry.summary[site.locale.value] }}</p><span class="nj-text-link">{{ ja ? '構成と利用情報' : 'Explore the project' }} →</span></NuxtLink></div>
     <div class="nj-ecosystem-link"><p>{{ ja ? 'Nuxt全体のモジュールも探したいですか？' : 'Looking for the wider Nuxt ecosystem?' }}</p><a class="nj-text-link" href="https://nuxt.com/modules">{{ ja ? '公式モジュールディレクトリへ' : 'Official module directory' }} ↗</a></div>
   </section>
 </template>
