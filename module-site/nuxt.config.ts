@@ -1,3 +1,4 @@
+import sitePages from './site/module'
 import siteBranding from './branding'
 export default defineNuxtConfig({
   devtools: { enabled: false },
@@ -8,7 +9,7 @@ export default defineNuxtConfig({
       maintenance: false,
       presentation: { theme: 'nuxtjp', scope: 'organization' }
     }],
-    './modules/nuxt-japan'
+    sitePages
   ],
   nitro: { prerender: { failOnError: true } }
 })
