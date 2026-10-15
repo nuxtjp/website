@@ -30,7 +30,7 @@
 .nj-green, .nj-site .nj-text-link { color: var(--nj-green); }
 .nj-text-link { font-size: 14px; font-weight: 600; }
 .nj-eyebrow { font-family: ui-monospace, monospace; font-size: 11px; font-weight: 600; letter-spacing: .09em; }
-.nj-header { background: #fff; border-bottom: 1px solid var(--nj-line); }
+.nj-header { position: sticky; top: 0; z-index: 40; background: #fff; border-bottom: 1px solid var(--nj-line); }
 .nj-header-inner { min-height: 88px; display: flex; align-items: center; gap: 44px; }
 .nj-brand { display: inline-flex; align-items: center; gap: 11px; font-size: 26px; font-weight: 750; line-height: 1.2; letter-spacing: -1px; white-space: nowrap; }
 .nj-brand img { border-radius: 9px; }
@@ -38,7 +38,7 @@
 .nj-header-tools { margin-left: auto; gap: 22px; }
 .nj-header .nls-language-switcher { font-size: 11px; gap: 12px; }
 .nj-header a[aria-current='page'] { color: var(--nj-green); }
-.nj-skip { position: absolute; top: -100px; left: 20px; z-index: 5; padding: 10px; background: #fff; }
+.nj-skip { position: fixed; top: -100px; left: 20px; z-index: 100; padding: 10px; background: #fff; }
 .nj-skip:focus { top: 10px; }
 .nj-hero { background: #072d4c; color: #fff; position: relative; overflow: hidden; }
 .nj-hero::before { content: ''; position: absolute; inset: 0; pointer-events: none; background-image: linear-gradient(#ffffff05 1px, transparent 1px), linear-gradient(90deg, #ffffff05 1px, transparent 1px); background-size: 48px 48px; }
