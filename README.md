@@ -31,3 +31,6 @@ validation remain in the registry module, with presentation in
 Local checks: `cd module-site`, `pnpm install --frozen-lockfile`,
 `pnpm typecheck`, `pnpm generate`. Static output: `.output/public`.
 The icon retains separate brand terms in `public/brand/NOTICE.txt`.
+
+
+サイトの独立したタグ公開・承認・有効化条件: [公開手順](docs/site-release.ja.md)。

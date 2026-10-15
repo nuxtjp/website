@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "repository": "nuxtjp/website",
+  "defaultBranch": "main",
+  "requiredWorkflows": [
+    "site-first-app.yml",
+    "content-validation.yml"
+  ],
+  "sites": [
+    {
+      "id": "nuxtjp",
+      "version": "0.1.0",
+      "account": "0655772369a7b3425e3398313a36521b",
+      "worker": "nuxtjp-website",
+      "domain": "nuxt.jp",
+      "origin": "https://nuxt.jp",
+      "environment": "site-production-nuxtjp",
+      "siteConfig": "content/nuxtjp/site.config.json",
+      "appDirectory": "module-site",
+      "assetDirectory": "module-site/.output/public",
+      "buildKind": "nuxt-generate"
+    }
+  ]
+}
