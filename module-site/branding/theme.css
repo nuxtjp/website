@@ -1,0 +1,4 @@
+:root { color-scheme: light; }
+.nj-site { --nj-green: #00875f; --nj-navy: #072d4c; }
+.nj-hero { background: linear-gradient(120deg, #072d4c, #0c4145); }
+.nj-brand img { object-fit: contain; border-radius: 0; }
