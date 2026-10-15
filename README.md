@@ -26,7 +26,7 @@ Nuxt, installation, and a searchable module/library directory. Official framewor
 guidance links to nuxt.com; the directory contains NuxtJP-owned projects and
 their dated registry observations. Shared locale routes, SEO and catalog
 validation remain in the registry module, with presentation in
-`module-site/app/` and route composition in `module-site/modules/nuxt-japan.ts`.
+`module-site/site/`, with its reviewed bilingual manifest and route composition in `module-site/site/module.ts`.
 
 Local checks: `cd module-site`, `pnpm install --frozen-lockfile`,
 `pnpm typecheck`, `pnpm generate`. Static output: `.output/public`.

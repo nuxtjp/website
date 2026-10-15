@@ -13,7 +13,9 @@
     "dev": "nuxt dev --host 127.0.0.1",
     "build": "nuxt build",
     "typecheck": "nuxt typecheck",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "test:site-structure": "node site/check.mjs",
+    "test": "pnpm run test:site-structure"
   },
   "dependencies": {
     "@nuxtjp/localized-site": "0.2.6",

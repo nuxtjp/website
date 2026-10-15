@@ -20,7 +20,7 @@
 
 ## 実装と共有
 
-日英ルート、SEO、公開データの検証と個別リポジトリ詳細は公式registryの`@nuxtjp/localized-site`を使う。NuxtJP専用のホーム・カタログ・ガイド・レイアウトは`module-site/app/`に置き、`modules/nuxt-japan.ts`で共有moduleのrouteへ合成する。Coelaや他組織のテーマを変更せず、共有schemaや新しいnpm packageを増やさない。
+日英ルート、SEO、公開データの検証と個別リポジトリ詳細は公式registryの`@nuxtjp/localized-site`を使う。NuxtJPの複数ページ・モジュール検索・導入ガイドは`module-site/site/`に置き、`site/module.ts`が公開manifestからrouteとHTML/XML sitemapを生成する。Coelaや他組織のテーマを変更せず、共有schemaや新しいnpm packageを増やさない。
 
 既存NJアイコンの紺・緑を軸に、開発者向けのコード例、導入、モジュール選択のUIとする。ソフトウェアとブランド素材のライセンスを分け、icon出典/hashは`module-site/public/brand/NOTICE.txt`で保持する。
 

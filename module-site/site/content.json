@@ -1,0 +1,1009 @@
+{
+  "siteId": "nuxtjp",
+  "origin": "https://nuxt.jp",
+  "defaultLocale": "ja",
+  "locales": {
+    "ja": {
+      "brand": "NuxtJP",
+      "caption": "",
+      "origin": "https://nuxt.jp",
+      "locale": "ja",
+      "accent": "#00875f",
+      "navigation": [
+        {
+          "title": "Nuxtをはじめる",
+          "href": "/learn"
+        },
+        {
+          "title": "活用シーン",
+          "href": "/use-cases"
+        },
+        {
+          "title": "モジュール",
+          "href": "/modules"
+        },
+        {
+          "title": "ドキュメント",
+          "href": "/docs"
+        },
+        {
+          "title": "読みもの",
+          "href": "/journal"
+        }
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "title": "Nuxtでつくる。\n日本語で、深く知る。",
+          "summary": "Nuxtの導入から、UI、ローカル連携、多言語サイトまで。開発に役立つガイドとモジュールを届けます。",
+          "sections": [
+            {
+              "title": "目的から、次の一歩へ。",
+              "text": "関心のあるテーマから、機能と使い方をご覧ください。",
+              "links": [
+                {
+                  "title": "まずは、小さなアプリから",
+                  "href": "/learn/introduction",
+                  "summary": "Nuxtの基本と開発の進め方を、日本語の導入ガイドからたどれます。",
+                  "icon": "/brand/icons/code.svg"
+                },
+                {
+                  "title": "必要な機能をモジュールで",
+                  "href": "/learn/modules",
+                  "summary": "宣言的UI、ローカル処理との連携、日英のサイト構築。目的ごとにモジュールを選べます。",
+                  "icon": "/brand/icons/layers.svg"
+                },
+                {
+                  "title": "理解を深める",
+                  "href": "/learn/resources",
+                  "summary": "公式ドキュメントと合わせて、構成や導入手順を確認できます。",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            },
+            {
+              "title": "使い方をイメージする",
+              "text": "用途ごとに、取り組み方と選ぶ道具を整理しています。",
+              "links": [
+                {
+                  "title": "活用シーンを見る",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "ガイドを読む",
+                  "href": "/docs"
+                }
+              ]
+            }
+          ],
+          "kind": "home",
+          "label": "NuxtJP",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn",
+          "title": "Nuxtをはじめる",
+          "summary": "Nuxtの導入から、UI、ローカル連携、多言語サイトまで。開発に役立つガイドとモジュールを届けます。",
+          "sections": [
+            {
+              "title": "まずは、小さなアプリから",
+              "text": "Nuxtの基本と開発の進め方を、日本語の導入ガイドからたどれます。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/learn/introduction",
+                  "icon": "/brand/icons/code.svg"
+                }
+              ]
+            },
+            {
+              "title": "必要な機能をモジュールで",
+              "text": "宣言的UI、ローカル処理との連携、日英のサイト構築。目的ごとにモジュールを選べます。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/learn/modules",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "理解を深める",
+              "text": "公式ドキュメントと合わせて、構成や導入手順を確認できます。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/learn/resources",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Nuxtをはじめる",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn/introduction",
+          "title": "まずは、小さなアプリから",
+          "summary": "Nuxtの基本と開発の進め方を、日本語の導入ガイドからたどれます。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Nuxtをはじめる",
+                  "href": "/learn"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "まずは、小さなアプリから",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn/modules",
+          "title": "必要な機能をモジュールで",
+          "summary": "宣言的UI、ローカル処理との連携、日英のサイト構築。目的ごとにモジュールを選べます。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Nuxtをはじめる",
+                  "href": "/learn"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "必要な機能をモジュールで",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn/resources",
+          "title": "理解を深める",
+          "summary": "公式ドキュメントと合わせて、構成や導入手順を確認できます。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Nuxtをはじめる",
+                  "href": "/learn"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "理解を深める",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/use-cases",
+          "title": "使う場面から、考える。",
+          "summary": "目的に合わせて、情報の扱いと道具の選び方を整理します。",
+          "sections": [
+            {
+              "title": "まずは、小さなアプリから",
+              "text": "Nuxtの基本と開発の進め方を、日本語の導入ガイドからたどれます。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/learn/introduction",
+                  "icon": "/brand/icons/code.svg"
+                }
+              ]
+            },
+            {
+              "title": "必要な機能をモジュールで",
+              "text": "宣言的UI、ローカル処理との連携、日英のサイト構築。目的ごとにモジュールを選べます。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/learn/modules",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "理解を深める",
+              "text": "公式ドキュメントと合わせて、構成や導入手順を確認できます。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/learn/resources",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "使う場面から、考える。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/modules",
+          "title": "目的に合った部品を探す",
+          "summary": "カテゴリとキーワードから、公開ライブラリとソースを探せます。",
+          "sections": [
+            {
+              "title": "公式ドキュメント",
+              "text": "Nuxt本体の最新の機能とAPIは、公式ドキュメントをご覧ください。",
+              "links": [
+                {
+                  "title": "Nuxt",
+                  "href": "https://nuxt.com/docs/getting-started/introduction"
+                }
+              ]
+            }
+          ],
+          "kind": "catalog",
+          "label": "目的に合った部品を探す",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs",
+          "title": "ガイドとドキュメント",
+          "summary": "目的に合わせて、使い方と設計の考え方を確認できます。",
+          "sections": [
+            {
+              "title": "はじめの一歩",
+              "text": "目的を確認し、必要な機能から始めましょう。",
+              "links": [
+                {
+                  "title": "導入ガイド",
+                  "href": "/docs/getting-started"
+                },
+                {
+                  "title": "安全に使うために",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "ガイドとドキュメント",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/getting-started",
+          "title": "はじめる前に、道筋をつかむ。",
+          "summary": "機能、使う場面、データの扱いを確認するためのガイドです。",
+          "sections": [
+            {
+              "title": "アプリを作成する",
+              "text": "Node.jsとパッケージマネージャーを用意し、Nuxt公式の作成コマンドを実行します。",
+              "code": "npm create nuxt@latest",
+              "links": []
+            },
+            {
+              "title": "開発サーバーを起動する",
+              "text": "作成したアプリのディレクトリで実行します。",
+              "code": "npm run dev -- -o",
+              "links": [
+                {
+                  "title": "Nuxt公式のインストールガイド",
+                  "href": "https://nuxt.com/docs/4.x/getting-started/installation"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "はじめる前に、道筋をつかむ。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/journal",
+          "title": "考え方と、実践の記録。",
+          "summary": "設計、開発、AI活用のテーマから、読みものをお届けします。",
+          "sections": [
+            {
+              "title": "テーマから読む",
+              "text": "記事と合わせて、関連するガイドもご覧いただけます。",
+              "links": [
+                {
+                  "title": "設計と使い方",
+                  "href": "/docs"
+                },
+                {
+                  "title": "情報の扱い",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "journal",
+          "label": "考え方と、実践の記録。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/privacy",
+          "title": "プライバシー",
+          "summary": "このサイトで扱う情報について。",
+          "sections": [
+            {
+              "title": "閲覧時の情報",
+              "text": "このサイトは静的なページを配信します。配信とセキュリティのため、配信事業者がIPアドレスなどの通信情報を処理します。独自のアクセス解析やログイン機能は設置していません。",
+              "links": []
+            },
+            {
+              "title": "外部サイト",
+              "text": "外部リンク先では、それぞれのプライバシー方針をご確認ください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "プライバシー",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/security",
+          "title": "安心して使うために。",
+          "summary": "情報と操作の範囲を確かめるための基本的な考え方。",
+          "sections": [
+            {
+              "title": "秘密情報を共有しない",
+              "text": "公開のIssueや問い合わせに、パスワード、トークン、個人情報を記載しないでください。",
+              "links": []
+            },
+            {
+              "title": "操作の前に確認する",
+              "text": "対象と権限を確かめ、必要な範囲だけを許可してください。製品ごとの利用ガイドとセキュリティ方針も確認してください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "安心して使うために。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/sitemap",
+          "title": "サイトマップ",
+          "summary": "ページを一覧から探す。",
+          "sections": [],
+          "kind": "page",
+          "label": "サイトマップ",
+          "category": "",
+          "status": "published"
+        }
+      ],
+      "resources": [
+        {
+          "title": "site-builder",
+          "summary": "日英の紹介・文書サイトとOSS一覧を、共通のNuxt基盤から構築します。",
+          "href": "https://github.com/nuxtjp/site-builder",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-interaction-fixture",
+          "summary": "Rustの処理、通信、Nuxtの画面を通した操作を、検証用アプリで確認できます。",
+          "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "declarative-ui",
+          "summary": "Nuxtで宣言的なview・interactionを組み込むモジュール。",
+          "href": "https://github.com/nuxtjp/declarative-ui",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-provider-auth",
+          "summary": "外部サービスの認証に必要な入力と進行状態を表示し、利用アプリへ開始要求を渡せます。",
+          "href": "https://github.com/nuxtjp/nuxt-provider-auth",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-local-runtime",
+          "summary": "利用者の明示操作で、ブラウザ画面から設定済みのローカルRust環境へ接続できます。",
+          "href": "https://github.com/nuxtjp/nuxt-local-runtime",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxtjp-ui",
+          "summary": "日本語サービスのUIを、共通の部品・テーマ・言語設定で揃えられます。",
+          "href": "https://github.com/nuxtjp/nuxtjp-ui",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-identity-client",
+          "summary": "ログイン、アカウント、認証方法、登録端末の画面を共通化できます。",
+          "href": "https://github.com/nuxtjp/nuxt-identity-client",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-commerce",
+          "summary": "決済・利用権の状態を表示し、明示的な購入手続きへの引き継ぎ要求を作れます。",
+          "href": "https://github.com/nuxtjp/nuxt-commerce",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-vuetify-layer",
+          "summary": "Nuxt 3とVuetify 3を組み合わせ、プラグイン・CSS・基本レイアウトを再利用できます。",
+          "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+          "category": "外部連携",
+          "license": "MIT"
+        },
+        {
+          "title": "nuxt-v8-view-worker",
+          "summary": "許可された単純な入力から、制限されたV8環境で表示断片を生成できます。",
+          "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "モジュールを見る",
+        "href": "/modules"
+      }
+    },
+    "en": {
+      "brand": "NuxtJP",
+      "caption": "",
+      "origin": "https://nuxt.jp",
+      "locale": "en",
+      "accent": "#00875f",
+      "navigation": [
+        {
+          "title": "Start with Nuxt",
+          "href": "/learn"
+        },
+        {
+          "title": "Use cases",
+          "href": "/use-cases"
+        },
+        {
+          "title": "Modules",
+          "href": "/modules"
+        },
+        {
+          "title": "Docs",
+          "href": "/docs"
+        },
+        {
+          "title": "Journal",
+          "href": "/journal"
+        }
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "title": "Build with Nuxt.\nLearn with NuxtJP.",
+          "summary": "Guides and modules for Nuxt, from your first application to declarative UI, local integration and multilingual sites.",
+          "sections": [
+            {
+              "title": "Find your next step.",
+              "text": "Explore capabilities and guides by the work you want to do.",
+              "links": [
+                {
+                  "title": "Start small",
+                  "href": "/learn/introduction",
+                  "summary": "Follow an introduction to Nuxt fundamentals and the development workflow.",
+                  "icon": "/brand/icons/code.svg"
+                },
+                {
+                  "title": "Choose focused modules",
+                  "href": "/learn/modules",
+                  "summary": "Explore modules for declarative UI, local integration and bilingual websites.",
+                  "icon": "/brand/icons/layers.svg"
+                },
+                {
+                  "title": "Go further",
+                  "href": "/learn/resources",
+                  "summary": "Use the guides alongside the official Nuxt documentation.",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            },
+            {
+              "title": "Explore the possibilities",
+              "text": "Find a workflow and the tools that fit your use case.",
+              "links": [
+                {
+                  "title": "Explore use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Read the guides",
+                  "href": "/docs"
+                }
+              ]
+            }
+          ],
+          "kind": "home",
+          "label": "NuxtJP",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn",
+          "title": "Start with Nuxt",
+          "summary": "Guides and modules for Nuxt, from your first application to declarative UI, local integration and multilingual sites.",
+          "sections": [
+            {
+              "title": "Start small",
+              "text": "Follow an introduction to Nuxt fundamentals and the development workflow.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/learn/introduction",
+                  "icon": "/brand/icons/code.svg"
+                }
+              ]
+            },
+            {
+              "title": "Choose focused modules",
+              "text": "Explore modules for declarative UI, local integration and bilingual websites.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/learn/modules",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "Go further",
+              "text": "Use the guides alongside the official Nuxt documentation.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/learn/resources",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Start with Nuxt",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn/introduction",
+          "title": "Start small",
+          "summary": "Follow an introduction to Nuxt fundamentals and the development workflow.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Start with Nuxt",
+                  "href": "/learn"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Start small",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn/modules",
+          "title": "Choose focused modules",
+          "summary": "Explore modules for declarative UI, local integration and bilingual websites.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Start with Nuxt",
+                  "href": "/learn"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Choose focused modules",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/learn/resources",
+          "title": "Go further",
+          "summary": "Use the guides alongside the official Nuxt documentation.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Start with Nuxt",
+                  "href": "/learn"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Go further",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/use-cases",
+          "title": "Start with the work.",
+          "summary": "Explore approaches to organizing information and selecting tools.",
+          "sections": [
+            {
+              "title": "Start small",
+              "text": "Follow an introduction to Nuxt fundamentals and the development workflow.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/learn/introduction",
+                  "icon": "/brand/icons/code.svg"
+                }
+              ]
+            },
+            {
+              "title": "Choose focused modules",
+              "text": "Explore modules for declarative UI, local integration and bilingual websites.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/learn/modules",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "Go further",
+              "text": "Use the guides alongside the official Nuxt documentation.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/learn/resources",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Start with the work.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/modules",
+          "title": "Find the right building blocks",
+          "summary": "Browse public libraries and source by category and keyword.",
+          "sections": [
+            {
+              "title": "Official documentation",
+              "text": "Read the official Nuxt documentation for framework features and APIs.",
+              "links": [
+                {
+                  "title": "Nuxt",
+                  "href": "https://nuxt.com/docs/getting-started/introduction"
+                }
+              ]
+            }
+          ],
+          "kind": "catalog",
+          "label": "Find the right building blocks",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs",
+          "title": "Guides and documentation",
+          "summary": "Explore usage guides and design principles.",
+          "sections": [
+            {
+              "title": "Getting started",
+              "text": "Start with your goal and the capabilities you need.",
+              "links": [
+                {
+                  "title": "Getting started",
+                  "href": "/docs/getting-started"
+                },
+                {
+                  "title": "Security guide",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Guides and documentation",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/getting-started",
+          "title": "Find a path before getting started.",
+          "summary": "A guide to capabilities, use cases and data boundaries.",
+          "sections": [
+            {
+              "title": "Create an application",
+              "text": "Install Node.js and a package manager, then use the official Nuxt creation command.",
+              "code": "npm create nuxt@latest",
+              "links": []
+            },
+            {
+              "title": "Start the development server",
+              "text": "Run this in the application directory.",
+              "code": "npm run dev -- -o",
+              "links": [
+                {
+                  "title": "Official Nuxt installation guide",
+                  "href": "https://nuxt.com/docs/4.x/getting-started/installation"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Find a path before getting started.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/journal",
+          "title": "Ideas and practice.",
+          "summary": "Writing about design, development and the thoughtful use of AI.",
+          "sections": [
+            {
+              "title": "Explore by topic",
+              "text": "Explore the related guides while new stories are being prepared.",
+              "links": [
+                {
+                  "title": "Design and usage",
+                  "href": "/docs"
+                },
+                {
+                  "title": "Information boundaries",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "journal",
+          "label": "Ideas and practice.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/privacy",
+          "title": "Privacy",
+          "summary": "How information is handled on this site.",
+          "sections": [
+            {
+              "title": "Browsing information",
+              "text": "This site serves static pages. The hosting provider processes connection information, including IP addresses, for delivery and security. No site-operated analytics or login is installed.",
+              "links": []
+            },
+            {
+              "title": "External sites",
+              "text": "External sites have their own privacy policies.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Privacy",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/security",
+          "title": "Use tools with confidence.",
+          "summary": "Principles for understanding information and operation boundaries.",
+          "sections": [
+            {
+              "title": "Protect credentials",
+              "text": "Do not include passwords, tokens or personal data in public issues or inquiries.",
+              "links": []
+            },
+            {
+              "title": "Review before operating",
+              "text": "Check targets and permissions and authorize only what is needed. Review the guide and security policy for each product.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Use tools with confidence.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/sitemap",
+          "title": "Sitemap",
+          "summary": "Find a page by name.",
+          "sections": [],
+          "kind": "page",
+          "label": "Sitemap",
+          "category": "",
+          "status": "published"
+        }
+      ],
+      "resources": [
+        {
+          "title": "site-builder",
+          "summary": "Build bilingual presentation, documentation and OSS catalogs on a shared Nuxt foundation.",
+          "href": "https://github.com/nuxtjp/site-builder",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-interaction-fixture",
+          "summary": "Test a complete declared interaction across a Rust handler, transport and Nuxt browser view.",
+          "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "declarative-ui",
+          "summary": "Nuxt composition for declarative views and interactions.",
+          "href": "https://github.com/nuxtjp/declarative-ui",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-provider-auth",
+          "summary": "Present the choices and progress of an external-service sign-in without embedding provider credentials in the UI module.",
+          "href": "https://github.com/nuxtjp/nuxt-provider-auth",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-local-runtime",
+          "summary": "Connect a browser interface to one explicitly configured local Rust runtime.",
+          "href": "https://github.com/nuxtjp/nuxt-local-runtime",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxtjp-ui",
+          "summary": "Add consistent Japanese-first UI components, theme tokens and locale behavior to a Nuxt application.",
+          "href": "https://github.com/nuxtjp/nuxtjp-ui",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-identity-client",
+          "summary": "Provide consistent sign-in, account, authenticator and device-management screens in a Nuxt service.",
+          "href": "https://github.com/nuxtjp/nuxt-identity-client",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-commerce",
+          "summary": "Display payment and entitlement state and request an explicit checkout handoff.",
+          "href": "https://github.com/nuxtjp/nuxt-commerce",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-vuetify-layer",
+          "summary": "Start a Nuxt application with Vuetify plugins, styles and a basic layout already composed.",
+          "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+          "category": "Integrations",
+          "license": "MIT"
+        },
+        {
+          "title": "nuxt-v8-view-worker",
+          "summary": "Render declared scalar input into a limited view fragment using a verified Rust/V8 worker.",
+          "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "Explore modules",
+        "href": "/modules"
+      }
+    }
+  }
+}
