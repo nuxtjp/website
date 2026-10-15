@@ -18,7 +18,8 @@
       "siteConfig": "content/nuxtjp/site.config.json",
       "appDirectory": "module-site",
       "assetDirectory": "module-site/.output/public",
-      "buildKind": "nuxt-generate"
+      "buildKind": "nuxt-generate",
+      "zone": "4206db723d3c27188ac8f953a0719000"
     }
   ]
 }
