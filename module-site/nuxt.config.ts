@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 import sitePages from './site/module'
 import siteBranding from './branding'
 export default defineNuxtConfig({
@@ -11,5 +12,5 @@ export default defineNuxtConfig({
     }],
     sitePages
   ],
-  nitro: { prerender: { failOnError: true } }
+  nitro: { publicAssets: [{ dir: fileURLToPath(new URL('../content/nuxtjp/public', import.meta.url)), maxAge: 0 }], prerender: { failOnError: true } }
 })
