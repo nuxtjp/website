@@ -26,6 +26,15 @@ export function validateContent(data) {
     }
     content.navigation.forEach(checkLink)
     if (content.secondaryAction) checkLink(content.secondaryAction)
+    if (data.siteId === 'nuxtjp') {
+      assert.ok(content.resources.every(item => item.href.startsWith('https://github.com/nuxtjp/')), 'NuxtJP catalog must contain only NuxtJP libraries')
+      const learn = content.pages.find(page => page.path === '/learn')
+      const owned = content.pages.find(page => page.path === '/nuxtjp')
+      assert.ok(learn && owned, 'framework and NuxtJP need separate entry pages')
+      assert.ok(content.navigation.some(link => link.href === '/learn') && content.navigation.some(link => link.href === '/nuxtjp'))
+      assert.ok(learn.sections.flatMap(section => section.links || []).some(link => link.href === 'https://nuxt.com'))
+      assert.ok(owned.sections.flatMap(section => section.links || []).some(link => link.href === '/modules'))
+    }
     content.resources.forEach(item => { checkLink(item); assert.ok(item.category && item.summary) })
     for (const page of content.pages) {
       assert.match(page.path, /^\/(?:[a-z0-9-]+(?:\/[a-z0-9-]+)*)?$/)
@@ -36,7 +45,9 @@ export function validateContent(data) {
       for (const section of page.sections) { assert.ok(section.title && section.text); section.links?.forEach(checkLink) }
       if (content.resources.length && page.path.startsWith(content.navigation[0].href + '/')) {
         const links = page.sections.flatMap(section => section.links || [])
-        assert.ok(content.resources.some(resource => links.some(link => link.href === resource.href)), `missing concrete repository link: ${page.path}`)
+        const knownSource = content.resources.some(resource => links.some(link => link.href === resource.href))
+        const upstreamNuxt = data.siteId === 'nuxtjp' && page.path === '/learn/introduction' && links.some(link => link.href === 'https://github.com/nuxt/nuxt')
+        assert.ok(knownSource || upstreamNuxt, `missing concrete repository link: ${page.path}`)
       }
     }
   }
