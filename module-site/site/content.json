@@ -34,7 +34,7 @@
       "pages": [
         {
           "path": "/",
-          "title": "Nuxtでつくる。\n日本語で、深く知る。",
+          "title": "Nuxtでつくる。\n日本語で学ぶ。",
           "summary": "VueでWebアプリケーションをつくるNuxt。その基本と公式ガイドへの入口、NuxtJPが開発するモジュールやサンプルを紹介します。",
           "sections": [
             {
