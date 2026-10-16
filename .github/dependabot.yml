@@ -5,8 +5,7 @@ updates:
   - /main-app
   - /module-site
   schedule:
-    interval: weekly
-    day: wednesday
+    interval: daily
     time: '05:00'
     timezone: Asia/Tokyo
   open-pull-requests-limit: 10
@@ -21,8 +20,7 @@ updates:
   directories:
   - /
   schedule:
-    interval: weekly
-    day: wednesday
+    interval: daily
     time: '05:00'
     timezone: Asia/Tokyo
   open-pull-requests-limit: 10
