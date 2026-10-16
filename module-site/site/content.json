@@ -57,7 +57,7 @@
               "code": "npm create nuxt@latest"
             },
             {
-              "title": "NuxtJPのモジュールで広げる",
+              "title": "NuxtJPのモジュール",
               "text": "サイト構築、UI、認証、ローカル処理との連携。NuxtJPが開発する部品を用途から選べます。",
               "links": [
                 {
