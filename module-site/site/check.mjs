@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import { validateNavigation } from './navigation.mts'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
@@ -24,6 +25,7 @@ export function validateContent(data) {
       else { const url = new URL(item.href); assert.equal(url.protocol, 'https:'); assert.equal(url.username + url.password, '') }
       if (item.icon) assert.match(item.icon, /^\/brand\/[a-zA-Z0-9/_.-]+\.(svg|png)$/)
     }
+    validateNavigation(content)
     content.navigation.forEach(checkLink)
     if (content.secondaryAction) checkLink(content.secondaryAction)
     if (data.siteId === 'nuxtjp') {
@@ -46,8 +48,11 @@ export function validateContent(data) {
       if (content.resources.length && page.path.startsWith(content.navigation[0].href + '/')) {
         const links = page.sections.flatMap(section => section.links || [])
         const knownSource = content.resources.some(resource => links.some(link => link.href === resource.href))
-        const upstreamNuxt = data.siteId === 'nuxtjp' && page.path === '/learn/introduction' && links.some(link => link.href === 'https://github.com/nuxt/nuxt')
-        assert.ok(knownSource || upstreamNuxt, `missing concrete repository link: ${page.path}`)
+        const frameworkReference = data.siteId === 'nuxtjp' && (
+          (page.path === '/learn/introduction' && links.some(link => link.href === 'https://github.com/nuxt/nuxt')) ||
+          (page.path === '/learn/modules' && links.some(link => link.href === 'https://nuxt.com/docs/4.x/guide/concepts/modules'))
+        )
+        assert.ok(knownSource || frameworkReference, `missing concrete repository link: ${page.path}`)
       }
     }
   }

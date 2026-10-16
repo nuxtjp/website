@@ -14,7 +14,7 @@
     "build": "nuxt build",
     "typecheck": "nuxt typecheck",
     "generate": "nuxt generate",
-    "test:site-structure": "node site/check.mjs",
+    "test:site-structure": "node --test site/navigation.cases.mts && node site/check.mjs",
     "test": "pnpm run test:site-structure"
   },
   "dependencies": {
