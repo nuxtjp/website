@@ -84,38 +84,60 @@
         {
           "path": "/learn",
           "title": "Nuxtをはじめる",
-          "summary": "Nuxtの導入から、UI、ローカル連携、多言語サイトまで。開発に役立つガイドとモジュールを届けます。",
+          "summary": "目的から機能を選び、対応するリポジトリと導入手順へ進めます。",
           "sections": [
             {
-              "title": "まずは、小さなアプリから",
-              "text": "Nuxtの基本と開発の進め方を、日本語の導入ガイドからたどれます。",
+              "title": "Nuxtをはじめる",
+              "text": "Nuxt本体と公式のインストール手順から、小さなアプリを動かす。",
               "links": [
                 {
-                  "title": "詳しく読む",
-                  "href": "/learn/introduction",
-                  "icon": "/brand/icons/code.svg"
+                  "title": "対応ライブラリと使い方",
+                  "href": "/learn/introduction"
+                },
+                {
+                  "title": "nuxt",
+                  "href": "https://github.com/nuxt/nuxt",
+                  "summary": "Nuxtコミュニティが開発する、Vueアプリケーション向けのフレームワーク本体。"
                 }
               ]
             },
             {
-              "title": "必要な機能をモジュールで",
-              "text": "宣言的UI、ローカル処理との連携、日英のサイト構築。目的ごとにモジュールを選べます。",
+              "title": "目的に合うモジュールを選ぶ",
+              "text": "サイト構築、UI、認証、ローカル処理などの実装を選ぶ。",
               "links": [
                 {
-                  "title": "詳しく読む",
-                  "href": "/learn/modules",
-                  "icon": "/brand/icons/layers.svg"
+                  "title": "対応ライブラリと使い方",
+                  "href": "/learn/modules"
+                },
+                {
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "日英の紹介・文書サイトとOSS一覧を、共通のNuxt基盤から構築します。"
+                },
+                {
+                  "title": "declarative-ui",
+                  "href": "https://github.com/nuxtjp/declarative-ui",
+                  "summary": "Nuxtで宣言的なview・interactionを組み込むモジュール。"
                 }
               ]
             },
             {
-              "title": "理解を深める",
-              "text": "公式ドキュメントと合わせて、構成や導入手順を確認できます。",
+              "title": "組み合わせを試す",
+              "text": "Nuxtの画面とRust処理・通信を組み合わせるサンプルで、実装を確かめる。",
               "links": [
                 {
-                  "title": "詳しく読む",
-                  "href": "/learn/resources",
-                  "icon": "/brand/icons/document.svg"
+                  "title": "対応ライブラリと使い方",
+                  "href": "/learn/resources"
+                },
+                {
+                  "title": "nuxt-interaction-fixture",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+                  "summary": "Rustの処理、通信、Nuxtの画面を通した操作を、検証用アプリで確認できます。"
+                },
+                {
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "日英の紹介・文書サイトとOSS一覧を、共通のNuxt基盤から構築します。"
                 }
               ]
             }
@@ -127,106 +149,215 @@
         },
         {
           "path": "/learn/introduction",
-          "title": "まずは、小さなアプリから",
-          "summary": "Nuxtの基本と開発の進め方を、日本語の導入ガイドからたどれます。",
+          "title": "Nuxtをはじめる",
+          "summary": "Nuxt本体と公式のインストール手順から、小さなアプリを動かす。",
           "sections": [
             {
-              "title": "こんなときに",
-              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "title": "対応するリポジトリ",
+              "text": "用途に合う実装を選び、ソースとREADMEの導入手順を確認できます。",
               "links": [
                 {
-                  "title": "使い方を確認する",
-                  "href": "/docs/getting-started"
+                  "title": "nuxt",
+                  "href": "https://github.com/nuxt/nuxt",
+                  "summary": "Nuxtコミュニティが開発する、Vueアプリケーション向けのフレームワーク本体。"
                 }
               ]
             },
             {
-              "title": "次に進む",
-              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "title": "公式の導入ガイド",
+              "text": "最初のアプリ作成から開発サーバーの起動まで。",
               "links": [
                 {
-                  "title": "活用シーン",
-                  "href": "/use-cases"
-                },
+                  "title": "Nuxt — Installation",
+                  "href": "https://nuxt.com/docs/4.x/getting-started/installation"
+                }
+              ]
+            },
+            {
+              "title": "導入手順を読む",
+              "text": "必要な環境・API・利用例は、各リポジトリのREADMEで確認できます。",
+              "links": [
+                {
+                  "title": "nuxt — README",
+                  "href": "https://github.com/nuxt/nuxt/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "ほかの機能を探す",
+              "text": "関連する機能とライブラリもご覧ください。",
+              "links": [
                 {
                   "title": "Nuxtをはじめる",
                   "href": "/learn"
+                },
+                {
+                  "title": "モジュール一覧",
+                  "href": "/modules"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "まずは、小さなアプリから",
+          "label": "Nuxtをはじめる",
           "category": "",
           "status": "published"
         },
         {
           "path": "/learn/modules",
-          "title": "必要な機能をモジュールで",
-          "summary": "宣言的UI、ローカル処理との連携、日英のサイト構築。目的ごとにモジュールを選べます。",
+          "title": "目的に合うモジュールを選ぶ",
+          "summary": "サイト構築、UI、認証、ローカル処理などの実装を選ぶ。",
           "sections": [
             {
-              "title": "こんなときに",
-              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "title": "対応するリポジトリ",
+              "text": "用途に合う実装を選び、ソースとREADMEの導入手順を確認できます。",
               "links": [
                 {
-                  "title": "使い方を確認する",
-                  "href": "/docs/getting-started"
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "日英の紹介・文書サイトとOSS一覧を、共通のNuxt基盤から構築します。"
+                },
+                {
+                  "title": "declarative-ui",
+                  "href": "https://github.com/nuxtjp/declarative-ui",
+                  "summary": "Nuxtで宣言的なview・interactionを組み込むモジュール。"
+                },
+                {
+                  "title": "nuxtjp-ui",
+                  "href": "https://github.com/nuxtjp/nuxtjp-ui",
+                  "summary": "日本語サービスのUIを、共通の部品・テーマ・言語設定で揃えられます。"
+                },
+                {
+                  "title": "nuxt-provider-auth",
+                  "href": "https://github.com/nuxtjp/nuxt-provider-auth",
+                  "summary": "外部サービスの認証に必要な入力と進行状態を表示し、利用アプリへ開始要求を渡せます。"
+                },
+                {
+                  "title": "nuxt-local-runtime",
+                  "href": "https://github.com/nuxtjp/nuxt-local-runtime",
+                  "summary": "利用者の明示操作で、ブラウザ画面から設定済みのローカルRust環境へ接続できます。"
+                },
+                {
+                  "title": "nuxt-identity-client",
+                  "href": "https://github.com/nuxtjp/nuxt-identity-client",
+                  "summary": "ログイン、アカウント、認証方法、登録端末の画面を共通化できます。"
+                },
+                {
+                  "title": "nuxt-commerce",
+                  "href": "https://github.com/nuxtjp/nuxt-commerce",
+                  "summary": "決済・利用権の状態を表示し、明示的な購入手続きへの引き継ぎ要求を作れます。"
+                },
+                {
+                  "title": "nuxt-vuetify-layer",
+                  "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+                  "summary": "Nuxt 3とVuetify 3を組み合わせ、プラグイン・CSS・基本レイアウトを再利用できます。"
+                },
+                {
+                  "title": "nuxt-v8-view-worker",
+                  "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+                  "summary": "許可された単純な入力から、制限されたV8環境で表示断片を生成できます。"
                 }
               ]
             },
             {
-              "title": "次に進む",
-              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "title": "導入手順を読む",
+              "text": "必要な環境・API・利用例は、各リポジトリのREADMEで確認できます。",
               "links": [
                 {
-                  "title": "活用シーン",
-                  "href": "/use-cases"
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
                 },
+                {
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
+                },
+                {
+                  "title": "nuxtjp-ui — README",
+                  "href": "https://github.com/nuxtjp/nuxtjp-ui/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "ほかの機能を探す",
+              "text": "関連する機能とライブラリもご覧ください。",
+              "links": [
                 {
                   "title": "Nuxtをはじめる",
                   "href": "/learn"
+                },
+                {
+                  "title": "モジュール一覧",
+                  "href": "/modules"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "必要な機能をモジュールで",
+          "label": "目的に合うモジュールを選ぶ",
           "category": "",
           "status": "published"
         },
         {
           "path": "/learn/resources",
-          "title": "理解を深める",
-          "summary": "公式ドキュメントと合わせて、構成や導入手順を確認できます。",
+          "title": "組み合わせを試す",
+          "summary": "Nuxtの画面とRust処理・通信を組み合わせるサンプルで、実装を確かめる。",
           "sections": [
             {
-              "title": "こんなときに",
-              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "title": "対応するリポジトリ",
+              "text": "用途に合う実装を選び、ソースとREADMEの導入手順を確認できます。",
               "links": [
                 {
-                  "title": "使い方を確認する",
-                  "href": "/docs/getting-started"
+                  "title": "nuxt-interaction-fixture",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+                  "summary": "Rustの処理、通信、Nuxtの画面を通した操作を、検証用アプリで確認できます。"
+                },
+                {
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "日英の紹介・文書サイトとOSS一覧を、共通のNuxt基盤から構築します。"
+                },
+                {
+                  "title": "declarative-ui",
+                  "href": "https://github.com/nuxtjp/declarative-ui",
+                  "summary": "Nuxtで宣言的なview・interactionを組み込むモジュール。"
                 }
               ]
             },
             {
-              "title": "次に進む",
-              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "title": "導入手順を読む",
+              "text": "必要な環境・API・利用例は、各リポジトリのREADMEで確認できます。",
               "links": [
                 {
-                  "title": "活用シーン",
-                  "href": "/use-cases"
+                  "title": "nuxt-interaction-fixture — README",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture/blob/main/README.md"
                 },
+                {
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
+                },
+                {
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "ほかの機能を探す",
+              "text": "関連する機能とライブラリもご覧ください。",
+              "links": [
                 {
                   "title": "Nuxtをはじめる",
                   "href": "/learn"
+                },
+                {
+                  "title": "モジュール一覧",
+                  "href": "/modules"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "理解を深める",
+          "label": "組み合わせを試す",
           "category": "",
           "status": "published"
         },
@@ -240,9 +371,8 @@
               "text": "Nuxtの基本と開発の進め方を、日本語の導入ガイドからたどれます。",
               "links": [
                 {
-                  "title": "機能を見る",
-                  "href": "/learn/introduction",
-                  "icon": "/brand/icons/code.svg"
+                  "title": "実装を選ぶ：nuxt",
+                  "href": "/learn/introduction"
                 }
               ]
             },
@@ -251,9 +381,8 @@
               "text": "宣言的UI、ローカル処理との連携、日英のサイト構築。目的ごとにモジュールを選べます。",
               "links": [
                 {
-                  "title": "機能を見る",
-                  "href": "/learn/modules",
-                  "icon": "/brand/icons/layers.svg"
+                  "title": "実装を選ぶ：site-builder, declarative-ui",
+                  "href": "/learn/modules"
                 }
               ]
             },
@@ -262,9 +391,8 @@
               "text": "公式ドキュメントと合わせて、構成や導入手順を確認できます。",
               "links": [
                 {
-                  "title": "機能を見る",
-                  "href": "/learn/resources",
-                  "icon": "/brand/icons/document.svg"
+                  "title": "実装を選ぶ：nuxt-interaction-fixture, site-builder",
+                  "href": "/learn/resources"
                 }
               ]
             }
@@ -298,19 +426,51 @@
         {
           "path": "/docs",
           "title": "ガイドとドキュメント",
-          "summary": "目的に合わせて、使い方と設計の考え方を確認できます。",
+          "summary": "機能別に、実装のREADMEと使い方を確認できます。",
           "sections": [
             {
-              "title": "はじめの一歩",
-              "text": "目的を確認し、必要な機能から始めましょう。",
+              "title": "Nuxtをはじめる",
+              "text": "Nuxt本体と公式のインストール手順から、小さなアプリを動かす。",
               "links": [
                 {
-                  "title": "導入ガイド",
-                  "href": "/docs/getting-started"
+                  "title": "nuxt — README",
+                  "href": "https://github.com/nuxt/nuxt/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "目的に合うモジュールを選ぶ",
+              "text": "サイト構築、UI、認証、ローカル処理などの実装を選ぶ。",
+              "links": [
+                {
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
                 },
                 {
-                  "title": "安全に使うために",
-                  "href": "/security"
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
+                },
+                {
+                  "title": "nuxtjp-ui — README",
+                  "href": "https://github.com/nuxtjp/nuxtjp-ui/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "組み合わせを試す",
+              "text": "Nuxtの画面とRust処理・通信を組み合わせるサンプルで、実装を確かめる。",
+              "links": [
+                {
+                  "title": "nuxt-interaction-fixture — README",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture/blob/main/README.md"
+                },
+                {
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
+                },
+                {
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
                 }
               ]
             }
@@ -428,73 +588,80 @@
       ],
       "resources": [
         {
+          "title": "nuxt",
+          "href": "https://github.com/nuxt/nuxt",
+          "summary": "Nuxtコミュニティが開発する、Vueアプリケーション向けのフレームワーク本体。",
+          "category": "Nuxt本体",
+          "license": "MIT"
+        },
+        {
           "title": "site-builder",
           "summary": "日英の紹介・文書サイトとOSS一覧を、共通のNuxt基盤から構築します。",
           "href": "https://github.com/nuxtjp/site-builder",
-          "category": "外部連携",
+          "category": "サイト構築",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-interaction-fixture",
           "summary": "Rustの処理、通信、Nuxtの画面を通した操作を、検証用アプリで確認できます。",
           "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
-          "category": "外部連携",
+          "category": "実行環境と検証",
           "license": "Apache-2.0"
         },
         {
           "title": "declarative-ui",
           "summary": "Nuxtで宣言的なview・interactionを組み込むモジュール。",
           "href": "https://github.com/nuxtjp/declarative-ui",
-          "category": "外部連携",
+          "category": "UIと画面",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-provider-auth",
           "summary": "外部サービスの認証に必要な入力と進行状態を表示し、利用アプリへ開始要求を渡せます。",
           "href": "https://github.com/nuxtjp/nuxt-provider-auth",
-          "category": "外部連携",
+          "category": "認証とアカウント",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-local-runtime",
           "summary": "利用者の明示操作で、ブラウザ画面から設定済みのローカルRust環境へ接続できます。",
           "href": "https://github.com/nuxtjp/nuxt-local-runtime",
-          "category": "外部連携",
+          "category": "実行環境と検証",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxtjp-ui",
           "summary": "日本語サービスのUIを、共通の部品・テーマ・言語設定で揃えられます。",
           "href": "https://github.com/nuxtjp/nuxtjp-ui",
-          "category": "外部連携",
+          "category": "UIと画面",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-identity-client",
           "summary": "ログイン、アカウント、認証方法、登録端末の画面を共通化できます。",
           "href": "https://github.com/nuxtjp/nuxt-identity-client",
-          "category": "外部連携",
+          "category": "認証とアカウント",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-commerce",
           "summary": "決済・利用権の状態を表示し、明示的な購入手続きへの引き継ぎ要求を作れます。",
           "href": "https://github.com/nuxtjp/nuxt-commerce",
-          "category": "外部連携",
+          "category": "購入と利用権",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-vuetify-layer",
           "summary": "Nuxt 3とVuetify 3を組み合わせ、プラグイン・CSS・基本レイアウトを再利用できます。",
           "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
-          "category": "外部連携",
+          "category": "UIと画面",
           "license": "MIT"
         },
         {
           "title": "nuxt-v8-view-worker",
           "summary": "許可された単純な入力から、制限されたV8環境で表示断片を生成できます。",
           "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
-          "category": "外部連携",
+          "category": "実行環境と検証",
           "license": "Apache-2.0"
         }
       ],
@@ -585,38 +752,60 @@
         {
           "path": "/learn",
           "title": "Start with Nuxt",
-          "summary": "Guides and modules for Nuxt, from your first application to declarative UI, local integration and multilingual sites.",
+          "summary": "Choose a capability and continue to its repositories and setup instructions.",
           "sections": [
             {
-              "title": "Start small",
-              "text": "Follow an introduction to Nuxt fundamentals and the development workflow.",
+              "title": "Start with Nuxt",
+              "text": "Start a small application with Nuxt and its official installation guide.",
               "links": [
                 {
-                  "title": "Explore the capability",
-                  "href": "/learn/introduction",
-                  "icon": "/brand/icons/code.svg"
+                  "title": "Libraries and usage",
+                  "href": "/learn/introduction"
+                },
+                {
+                  "title": "nuxt",
+                  "href": "https://github.com/nuxt/nuxt",
+                  "summary": "The upstream Nuxt framework for Vue applications, maintained by the Nuxt community."
                 }
               ]
             },
             {
-              "title": "Choose focused modules",
-              "text": "Explore modules for declarative UI, local integration and bilingual websites.",
+              "title": "Choose modules by purpose",
+              "text": "Choose concrete modules for sites, UI, authentication and local processing.",
               "links": [
                 {
-                  "title": "Explore the capability",
-                  "href": "/learn/modules",
-                  "icon": "/brand/icons/layers.svg"
+                  "title": "Libraries and usage",
+                  "href": "/learn/modules"
+                },
+                {
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "Build bilingual presentation, documentation and OSS catalogs on a shared Nuxt foundation."
+                },
+                {
+                  "title": "declarative-ui",
+                  "href": "https://github.com/nuxtjp/declarative-ui",
+                  "summary": "Nuxt composition for declarative views and interactions."
                 }
               ]
             },
             {
-              "title": "Go further",
-              "text": "Use the guides alongside the official Nuxt documentation.",
+              "title": "Explore an integrated example",
+              "text": "Explore a sample connecting Nuxt views, Rust operations and transport.",
               "links": [
                 {
-                  "title": "Explore the capability",
-                  "href": "/learn/resources",
-                  "icon": "/brand/icons/document.svg"
+                  "title": "Libraries and usage",
+                  "href": "/learn/resources"
+                },
+                {
+                  "title": "nuxt-interaction-fixture",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+                  "summary": "Test a complete declared interaction across a Rust handler, transport and Nuxt browser view."
+                },
+                {
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "Build bilingual presentation, documentation and OSS catalogs on a shared Nuxt foundation."
                 }
               ]
             }
@@ -628,106 +817,215 @@
         },
         {
           "path": "/learn/introduction",
-          "title": "Start small",
-          "summary": "Follow an introduction to Nuxt fundamentals and the development workflow.",
+          "title": "Start with Nuxt",
+          "summary": "Start a small application with Nuxt and its official installation guide.",
           "sections": [
             {
-              "title": "When to use it",
-              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "title": "Repositories for this capability",
+              "text": "Choose an implementation and open its source and README to get started.",
               "links": [
                 {
-                  "title": "Read the guide",
-                  "href": "/docs/getting-started"
+                  "title": "nuxt",
+                  "href": "https://github.com/nuxt/nuxt",
+                  "summary": "The upstream Nuxt framework for Vue applications, maintained by the Nuxt community."
                 }
               ]
             },
             {
-              "title": "Next steps",
-              "text": "Explore the guides and related topics.",
+              "title": "Official installation guide",
+              "text": "Create the first application and start a development server.",
               "links": [
                 {
-                  "title": "Use cases",
-                  "href": "/use-cases"
-                },
+                  "title": "Nuxt — Installation",
+                  "href": "https://nuxt.com/docs/4.x/getting-started/installation"
+                }
+              ]
+            },
+            {
+              "title": "Read the setup instructions",
+              "text": "Each repository README describes prerequisites, interfaces and examples.",
+              "links": [
+                {
+                  "title": "nuxt — README",
+                  "href": "https://github.com/nuxt/nuxt/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "Explore other capabilities",
+              "text": "Browse related capabilities and the full library.",
+              "links": [
                 {
                   "title": "Start with Nuxt",
                   "href": "/learn"
+                },
+                {
+                  "title": "All modules",
+                  "href": "/modules"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "Start small",
+          "label": "Start with Nuxt",
           "category": "",
           "status": "published"
         },
         {
           "path": "/learn/modules",
-          "title": "Choose focused modules",
-          "summary": "Explore modules for declarative UI, local integration and bilingual websites.",
+          "title": "Choose modules by purpose",
+          "summary": "Choose concrete modules for sites, UI, authentication and local processing.",
           "sections": [
             {
-              "title": "When to use it",
-              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "title": "Repositories for this capability",
+              "text": "Choose an implementation and open its source and README to get started.",
               "links": [
                 {
-                  "title": "Read the guide",
-                  "href": "/docs/getting-started"
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "Build bilingual presentation, documentation and OSS catalogs on a shared Nuxt foundation."
+                },
+                {
+                  "title": "declarative-ui",
+                  "href": "https://github.com/nuxtjp/declarative-ui",
+                  "summary": "Nuxt composition for declarative views and interactions."
+                },
+                {
+                  "title": "nuxtjp-ui",
+                  "href": "https://github.com/nuxtjp/nuxtjp-ui",
+                  "summary": "Add consistent Japanese-first UI components, theme tokens and locale behavior to a Nuxt application."
+                },
+                {
+                  "title": "nuxt-provider-auth",
+                  "href": "https://github.com/nuxtjp/nuxt-provider-auth",
+                  "summary": "Present the choices and progress of an external-service sign-in without embedding provider credentials in the UI module."
+                },
+                {
+                  "title": "nuxt-local-runtime",
+                  "href": "https://github.com/nuxtjp/nuxt-local-runtime",
+                  "summary": "Connect a browser interface to one explicitly configured local Rust runtime."
+                },
+                {
+                  "title": "nuxt-identity-client",
+                  "href": "https://github.com/nuxtjp/nuxt-identity-client",
+                  "summary": "Provide consistent sign-in, account, authenticator and device-management screens in a Nuxt service."
+                },
+                {
+                  "title": "nuxt-commerce",
+                  "href": "https://github.com/nuxtjp/nuxt-commerce",
+                  "summary": "Display payment and entitlement state and request an explicit checkout handoff."
+                },
+                {
+                  "title": "nuxt-vuetify-layer",
+                  "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+                  "summary": "Start a Nuxt application with Vuetify plugins, styles and a basic layout already composed."
+                },
+                {
+                  "title": "nuxt-v8-view-worker",
+                  "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+                  "summary": "Render declared scalar input into a limited view fragment using a verified Rust/V8 worker."
                 }
               ]
             },
             {
-              "title": "Next steps",
-              "text": "Explore the guides and related topics.",
+              "title": "Read the setup instructions",
+              "text": "Each repository README describes prerequisites, interfaces and examples.",
               "links": [
                 {
-                  "title": "Use cases",
-                  "href": "/use-cases"
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
                 },
+                {
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
+                },
+                {
+                  "title": "nuxtjp-ui — README",
+                  "href": "https://github.com/nuxtjp/nuxtjp-ui/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "Explore other capabilities",
+              "text": "Browse related capabilities and the full library.",
+              "links": [
                 {
                   "title": "Start with Nuxt",
                   "href": "/learn"
+                },
+                {
+                  "title": "All modules",
+                  "href": "/modules"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "Choose focused modules",
+          "label": "Choose modules by purpose",
           "category": "",
           "status": "published"
         },
         {
           "path": "/learn/resources",
-          "title": "Go further",
-          "summary": "Use the guides alongside the official Nuxt documentation.",
+          "title": "Explore an integrated example",
+          "summary": "Explore a sample connecting Nuxt views, Rust operations and transport.",
           "sections": [
             {
-              "title": "When to use it",
-              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "title": "Repositories for this capability",
+              "text": "Choose an implementation and open its source and README to get started.",
               "links": [
                 {
-                  "title": "Read the guide",
-                  "href": "/docs/getting-started"
+                  "title": "nuxt-interaction-fixture",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+                  "summary": "Test a complete declared interaction across a Rust handler, transport and Nuxt browser view."
+                },
+                {
+                  "title": "site-builder",
+                  "href": "https://github.com/nuxtjp/site-builder",
+                  "summary": "Build bilingual presentation, documentation and OSS catalogs on a shared Nuxt foundation."
+                },
+                {
+                  "title": "declarative-ui",
+                  "href": "https://github.com/nuxtjp/declarative-ui",
+                  "summary": "Nuxt composition for declarative views and interactions."
                 }
               ]
             },
             {
-              "title": "Next steps",
-              "text": "Explore the guides and related topics.",
+              "title": "Read the setup instructions",
+              "text": "Each repository README describes prerequisites, interfaces and examples.",
               "links": [
                 {
-                  "title": "Use cases",
-                  "href": "/use-cases"
+                  "title": "nuxt-interaction-fixture — README",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture/blob/main/README.md"
                 },
+                {
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
+                },
+                {
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "Explore other capabilities",
+              "text": "Browse related capabilities and the full library.",
+              "links": [
                 {
                   "title": "Start with Nuxt",
                   "href": "/learn"
+                },
+                {
+                  "title": "All modules",
+                  "href": "/modules"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "Go further",
+          "label": "Explore an integrated example",
           "category": "",
           "status": "published"
         },
@@ -741,9 +1039,8 @@
               "text": "Follow an introduction to Nuxt fundamentals and the development workflow.",
               "links": [
                 {
-                  "title": "Explore the capability",
-                  "href": "/learn/introduction",
-                  "icon": "/brand/icons/code.svg"
+                  "title": "Choose: nuxt",
+                  "href": "/learn/introduction"
                 }
               ]
             },
@@ -752,9 +1049,8 @@
               "text": "Explore modules for declarative UI, local integration and bilingual websites.",
               "links": [
                 {
-                  "title": "Explore the capability",
-                  "href": "/learn/modules",
-                  "icon": "/brand/icons/layers.svg"
+                  "title": "Choose: site-builder, declarative-ui",
+                  "href": "/learn/modules"
                 }
               ]
             },
@@ -763,9 +1059,8 @@
               "text": "Use the guides alongside the official Nuxt documentation.",
               "links": [
                 {
-                  "title": "Explore the capability",
-                  "href": "/learn/resources",
-                  "icon": "/brand/icons/document.svg"
+                  "title": "Choose: nuxt-interaction-fixture, site-builder",
+                  "href": "/learn/resources"
                 }
               ]
             }
@@ -799,19 +1094,51 @@
         {
           "path": "/docs",
           "title": "Guides and documentation",
-          "summary": "Explore usage guides and design principles.",
+          "summary": "Find implementation READMEs and usage by capability.",
           "sections": [
             {
-              "title": "Getting started",
-              "text": "Start with your goal and the capabilities you need.",
+              "title": "Start with Nuxt",
+              "text": "Start a small application with Nuxt and its official installation guide.",
               "links": [
                 {
-                  "title": "Getting started",
-                  "href": "/docs/getting-started"
+                  "title": "nuxt — README",
+                  "href": "https://github.com/nuxt/nuxt/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "Choose modules by purpose",
+              "text": "Choose concrete modules for sites, UI, authentication and local processing.",
+              "links": [
+                {
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
                 },
                 {
-                  "title": "Security guide",
-                  "href": "/security"
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
+                },
+                {
+                  "title": "nuxtjp-ui — README",
+                  "href": "https://github.com/nuxtjp/nuxtjp-ui/blob/main/README.md"
+                }
+              ]
+            },
+            {
+              "title": "Explore an integrated example",
+              "text": "Explore a sample connecting Nuxt views, Rust operations and transport.",
+              "links": [
+                {
+                  "title": "nuxt-interaction-fixture — README",
+                  "href": "https://github.com/nuxtjp/nuxt-interaction-fixture/blob/main/README.md"
+                },
+                {
+                  "title": "site-builder — README",
+                  "href": "https://github.com/nuxtjp/site-builder/blob/main/README.md"
+                },
+                {
+                  "title": "declarative-ui — README",
+                  "href": "https://github.com/nuxtjp/declarative-ui/blob/main/README.md"
                 }
               ]
             }
@@ -929,73 +1256,80 @@
       ],
       "resources": [
         {
+          "title": "nuxt",
+          "href": "https://github.com/nuxt/nuxt",
+          "summary": "The upstream Nuxt framework for Vue applications, maintained by the Nuxt community.",
+          "category": "Nuxt framework",
+          "license": "MIT"
+        },
+        {
           "title": "site-builder",
           "summary": "Build bilingual presentation, documentation and OSS catalogs on a shared Nuxt foundation.",
           "href": "https://github.com/nuxtjp/site-builder",
-          "category": "Integrations",
+          "category": "Site building",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-interaction-fixture",
           "summary": "Test a complete declared interaction across a Rust handler, transport and Nuxt browser view.",
           "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
-          "category": "Integrations",
+          "category": "Runtime and verification",
           "license": "Apache-2.0"
         },
         {
           "title": "declarative-ui",
           "summary": "Nuxt composition for declarative views and interactions.",
           "href": "https://github.com/nuxtjp/declarative-ui",
-          "category": "Integrations",
+          "category": "UI and views",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-provider-auth",
           "summary": "Present the choices and progress of an external-service sign-in without embedding provider credentials in the UI module.",
           "href": "https://github.com/nuxtjp/nuxt-provider-auth",
-          "category": "Integrations",
+          "category": "Identity and accounts",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-local-runtime",
           "summary": "Connect a browser interface to one explicitly configured local Rust runtime.",
           "href": "https://github.com/nuxtjp/nuxt-local-runtime",
-          "category": "Integrations",
+          "category": "Runtime and verification",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxtjp-ui",
           "summary": "Add consistent Japanese-first UI components, theme tokens and locale behavior to a Nuxt application.",
           "href": "https://github.com/nuxtjp/nuxtjp-ui",
-          "category": "Integrations",
+          "category": "UI and views",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-identity-client",
           "summary": "Provide consistent sign-in, account, authenticator and device-management screens in a Nuxt service.",
           "href": "https://github.com/nuxtjp/nuxt-identity-client",
-          "category": "Integrations",
+          "category": "Identity and accounts",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-commerce",
           "summary": "Display payment and entitlement state and request an explicit checkout handoff.",
           "href": "https://github.com/nuxtjp/nuxt-commerce",
-          "category": "Integrations",
+          "category": "Commerce",
           "license": "Apache-2.0"
         },
         {
           "title": "nuxt-vuetify-layer",
           "summary": "Start a Nuxt application with Vuetify plugins, styles and a basic layout already composed.",
           "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
-          "category": "Integrations",
+          "category": "UI and views",
           "license": "MIT"
         },
         {
           "title": "nuxt-v8-view-worker",
           "summary": "Render declared scalar input into a limited view fragment using a verified Rust/V8 worker.",
           "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
-          "category": "Integrations",
+          "category": "Runtime and verification",
           "license": "Apache-2.0"
         }
       ],
