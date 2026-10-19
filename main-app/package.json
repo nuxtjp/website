@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "@nuxthub/core": "^0.10.8",
-    "sass-embedded": "^1.105.1"
+    "sass-embedded": "^1.105.2"
   }
 }
