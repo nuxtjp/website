@@ -12,6 +12,7 @@ const categories = [
 
 const categoryById: Record<string, string> = {
   'nuxtjp-site-builder': 'sites',
+  'nuxtjp-flow': 'ui',
   'nuxtjp-declarative-ui': 'ui',
   'nuxtjp-nuxtjp-ui': 'ui',
   'nuxtjp-nuxt-vuetify-layer': 'ui',
