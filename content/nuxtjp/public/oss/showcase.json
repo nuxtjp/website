@@ -33,6 +33,22 @@
       ]
     },
     {
+      "id": "nuxtjp-flow",
+      "kind": "oss",
+      "name": {
+        "ja": "Flow",
+        "en": "Flow"
+      },
+      "summary": {
+        "ja": "NuxtのSSR・静的生成を保ち、Vue Flowのグラフ操作だけをクライアントで描画します。",
+        "en": "Add Vue Flow interactions inside a client-rendered graph boundary while retaining Nuxt SSR and static generation."
+      },
+      "repository": "https://github.com/nuxtjp/flow",
+      "homepage": "https://www.npmjs.com/package/@nuxtjp/flow",
+      "license": "MIT",
+      "metrics": []
+    },
+    {
       "id": "nuxtjp-nuxt-interaction-fixture",
       "kind": "oss",
       "name": {
