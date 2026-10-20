@@ -3,8 +3,7 @@ import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import { md3 } from 'vuetify/blueprints'
-import { VStepperVertical, VStepperVerticalItem, VStepperVerticalActions } from 'vuetify/labs/VStepperVertical'
-import 'vuetify/dist/vuetify-labs.css'
+import { VStepperVertical, VStepperVerticalItem, VStepperVerticalActions } from 'vuetify/components/VStepperVertical'
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
     blueprint: md3,
