@@ -1,0 +1,100 @@
+{
+  "ja": {
+    "category": "Nuxtの日本語コミュニティ",
+    "primary": {
+      "href": "/learn",
+      "title": "Nuxtをはじめる"
+    },
+    "secondary": {
+      "href": "/modules",
+      "title": "NuxtJPのモジュール"
+    },
+    "pathsTitle": "何をお探しですか？",
+    "paths": [
+      {
+        "href": "/learn",
+        "title": "Nuxtを学びたい",
+        "summary": "基本と公式ガイドへの入口"
+      },
+      {
+        "href": "/modules",
+        "title": "NuxtJPの部品を探す",
+        "summary": "目的に合った独自モジュール"
+      },
+      {
+        "href": "/learn/resources",
+        "title": "組み合わせ例を見る",
+        "summary": "部品の使いどころを知る"
+      }
+    ],
+    "preview": {
+      "kind": "code",
+      "label": "学ぶ・つくる",
+      "title": "学ぶ。つくる。広げる。",
+      "rows": [
+        {
+          "label": "Nuxt",
+          "detail": "VueでWebアプリをつくる"
+        },
+        {
+          "label": "npm create nuxt@latest",
+          "detail": "最初のアプリから始める"
+        },
+        {
+          "label": "NuxtJP modules",
+          "detail": "必要に応じて独自の部品を選ぶ"
+        }
+      ],
+      "outcome": "Nuxt公式とNuxtJPの開発を区別して案内"
+    }
+  },
+  "en": {
+    "category": "The Japanese Nuxt community",
+    "primary": {
+      "href": "/learn",
+      "title": "Start with Nuxt"
+    },
+    "secondary": {
+      "href": "/modules",
+      "title": "NuxtJP modules"
+    },
+    "pathsTitle": "What brings you here?",
+    "paths": [
+      {
+        "href": "/learn",
+        "title": "Learn Nuxt",
+        "summary": "Fundamentals and official learning resources"
+      },
+      {
+        "href": "/modules",
+        "title": "Explore NuxtJP modules",
+        "summary": "Find independently maintained modules"
+      },
+      {
+        "href": "/learn/resources",
+        "title": "Explore examples",
+        "summary": "See where the modules fit"
+      }
+    ],
+    "preview": {
+      "kind": "code",
+      "label": "Learn and build",
+      "title": "Learn. Build. Extend.",
+      "rows": [
+        {
+          "label": "Nuxt",
+          "detail": "Build web applications with Vue"
+        },
+        {
+          "label": "npm create nuxt@latest",
+          "detail": "Start with your first application"
+        },
+        {
+          "label": "NuxtJP modules",
+          "detail": "Choose community modules when needed"
+        }
+      ],
+      "outcome": "Official Nuxt and NuxtJP work, clearly separated"
+    }
+  }
+}
