@@ -8,7 +8,7 @@
       "caption": "",
       "origin": "https://nuxt.jp",
       "locale": "ja",
-      "accent": "#00875f",
+      "accent": "#087f5b",
       "navigation": [
         {
           "title": "Nuxtを学ぶ",
@@ -624,7 +624,7 @@
       "caption": "",
       "origin": "https://nuxt.jp",
       "locale": "en",
-      "accent": "#00875f",
+      "accent": "#087f5b",
       "navigation": [
         {
           "title": "Learn Nuxt",
