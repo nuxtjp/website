@@ -15,7 +15,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
-          node-version: '24.15.0'
+          node-version: '24.22.1'
           package-manager-cache: false
       - name: Validate the migrated public site configuration
         run: npm exec --yes --package=@nuxtjp/localized-site@0.2.3 -- nuxtjp-localized-site validate --content-root content/nuxtjp
