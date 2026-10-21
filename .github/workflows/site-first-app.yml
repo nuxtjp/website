@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
-          node-version: '24.15.0'
+          node-version: '24.22.1'
           package-manager-cache: false
       - run: npm install --global --ignore-scripts --no-audit --no-fund pnpm@10.29.3
       - run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/site-first-store" --registry=https://registry.npmjs.org
@@ -48,7 +48,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
-          node-version: '24.15.0'
+          node-version: '24.22.1'
           package-manager-cache: false
       - run: npm ci --ignore-scripts --no-audit --no-fund
       - run: npm run build
