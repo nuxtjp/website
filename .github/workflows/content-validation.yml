@@ -17,5 +17,8 @@ jobs:
         with:
           node-version: '24.22.1'
           package-manager-cache: false
+      - run: npm install --global --ignore-scripts --no-audit --no-fund pnpm@10.29.3
+      - name: Install the owner-locked validation toolchain without lifecycle scripts
+        run: pnpm --dir module-site install --frozen-lockfile --ignore-scripts --store-dir "$RUNNER_TEMP/content-store" --registry=https://registry.npmjs.org
       - name: Validate the migrated public site configuration
-        run: npm exec --yes --package=@nuxtjp/localized-site@0.2.3 -- nuxtjp-localized-site validate --content-root content/nuxtjp
+        run: pnpm --dir module-site exec nuxtjp-localized-site validate --content-root ../content/nuxtjp
