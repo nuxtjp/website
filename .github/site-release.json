@@ -19,7 +19,8 @@
       "appDirectory": "module-site",
       "assetDirectory": "module-site/.output/public",
       "buildKind": "nuxt-generate",
-      "zone": "4206db723d3c27188ac8f953a0719000"
+      "zone": "4206db723d3c27188ac8f953a0719000",
+      "documentDirectory": "module-site/site"
     }
   ]
 }
