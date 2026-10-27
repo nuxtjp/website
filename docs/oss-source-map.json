@@ -32,7 +32,8 @@
     "module-site/site/check.mjs"
   ],
   "example_sources": [
-    "content/nuxtjp/knowledge/playground/index.md"
+    "module-site/site/documents/ja/docs/getting-started.md",
+    "module-site/site/documents/en/docs/getting-started.md"
   ],
   "workflow_definitions": [
     {
@@ -138,5 +139,8 @@
       ]
     }
   ],
-  "evidence_policy": "Declarations and source paths are not proof of an executed acceptance. Exact CI head and result are recorded separately. No live accounts or production acceptance is inferred."
+  "evidence_policy": "Declarations and source paths are not proof of an executed acceptance. Exact CI head and result are recorded separately. No live accounts or production acceptance is inferred.",
+  "historical_materials": [
+    "content/nuxtjp/knowledge/source-provenance.json"
+  ]
 }
