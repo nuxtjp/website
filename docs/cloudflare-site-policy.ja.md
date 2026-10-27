@@ -54,3 +54,17 @@ Worker `hello` と custom domain 登録は残存していた。リポジトリ�
 
 参考: [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/)、
 [Nuxt on Workers](https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/nuxt/)。
+
+## 現行の本番構成（2026-10-28）
+
+`site/nuxtjp/v0.1.12` の公開ワークフロー（run `40601636040`）で、
+`module-site` の本番置換を受け入れた。129公開資産・30 Markdownルートを
+照合し、DNSと既存custom domainを維持、workers.devとpreview URLを無効に保った。
+MDCからHTML・公開Markdown・robots.txt・sitemap.xml・llms.txtを生成し、
+同じ成果物に束ねたWorkerが明示されたページのMarkdown表現を配信する。
+`search=yes, ai-input=yes, ai-train=yes` を公開方針とする。
+
+本番置換後、旧アプリ本体・依存・専用CIを削除した。固有の文章・faviconは
+`content/nuxtjp/knowledge/`へバイト同一で保存し、出典とhashを記録する。
+公開manifestには追加せず、現行アプリ・生成物・配備資産は変更しない。
+`hello` の不要なCloudflareリソースは今回変更していない。

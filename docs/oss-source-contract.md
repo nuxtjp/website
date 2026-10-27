@@ -1,10 +1,10 @@
 # OSS source contract: nuxtjp/website
 
-Maintain the current module-site and explicitly separated historical Japanese Nuxt application/content.
+Maintain the current module-site and preserved Japanese Nuxt knowledge.
 
 ## Responsibility boundary
 
-Licensing is component-scoped: module-site and content retain their own LICENSE/NOTICE. Do not infer a repository-wide license for legacy main-app assets or delete an active host during source cleanup.
+Licensing is component-scoped: module-site and content retain their own LICENSE/NOTICE. Preserved historical materials retain their existing rights and source provenance; do not infer a repository-wide license.
 
 Same-function managed packages take priority when their actual capabilities fit. Do not add an unrelated dependency merely to connect organizations. Preserve upstream LICENSE/NOTICE and immutable release/history evidence; unused compatibility sources belong in Git history, not the supported API.
 
@@ -12,7 +12,6 @@ Same-function managed packages take priority when their actual capabilities fit.
 
 | Manifest | Package | Distribution policy |
 | --- | --- | --- |
-| `main-app/package.json` | `nuxtjp-main` | application/private manifest |
 | `module-site/package.json` | `@nuxtjp/public-module-site` | application/private manifest |
 
 Manifest versions and publish flags are declarations, not proof of published availability. Public npm exports and Rust implementation/docs belong to the manifests above; generated dist and sibling checkouts are not source-of-truth implementations.
@@ -47,7 +46,6 @@ a filename or schema declaration does not grant product or cloud authority.
 
 | Package | Canonical manifest | Responsibility/interface |
 | --- | --- | --- |
-| `nuxtjp-main` | [main-app/package.json](../main-app/package.json) | Declared npm exports/bin and scripts |
 | `@nuxtjp/public-module-site` | [module-site/package.json](../module-site/package.json) | Declared npm exports/bin and scripts |
 
 For source acceptance, run each applicable functional CI job with the committed
