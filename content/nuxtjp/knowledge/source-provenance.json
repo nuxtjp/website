@@ -1,0 +1,57 @@
+{
+  "repository": "nuxtjp/website",
+  "sourceCommit": "42b78e5f8396db20835c7e2b7da11edec06330af",
+  "purpose": "Retain historical knowledge and asset bytes when removing the retired application. These files are not imported by the published MDC manifest. Existing rights remain unchanged.",
+  "files": [
+    {
+      "sourcePath": "main-app/content/index.md",
+      "path": "index.md",
+      "sha256": "b656a84f91e5775bf4db6e71b07c647d70134e163f3d63e1cbbd05c3d9003090"
+    },
+    {
+      "sourcePath": "main-app/content/links/index.md",
+      "path": "links/index.md",
+      "sha256": "84dc551978cd52e08fff9358cb6f87f0f1c2a018259741bb42232ae414a87f0a"
+    },
+    {
+      "sourcePath": "main-app/content/overview/environment.md",
+      "path": "overview/environment.md",
+      "sha256": "ffa57e5c5f75dfb65584b5ea45eccacdc30744cc31d2988c01e44b80824f900a"
+    },
+    {
+      "sourcePath": "main-app/content/overview/getstart.md",
+      "path": "overview/getstart.md",
+      "sha256": "70d885c151eae86a61112f5984278113c959bdb3f495426bc24318a385cefdd1"
+    },
+    {
+      "sourcePath": "main-app/content/overview/index.md",
+      "path": "overview/index.md",
+      "sha256": "674ba8d69675521aa948509bc7a07a6ce2eb5c9de687bacff3542d338636606b"
+    },
+    {
+      "sourcePath": "main-app/content/overview/overlook.md",
+      "path": "overview/overlook.md",
+      "sha256": "4f7a03e55160d1c41ea1871db3e443c42a947c2d42ff7c7d169d19424a2092dc"
+    },
+    {
+      "sourcePath": "main-app/content/overview/request.md",
+      "path": "overview/request.md",
+      "sha256": "4183cfbad96f60b3bffae516fbb6f43eef73d25e2a4a11ac12da00b34ca9b645"
+    },
+    {
+      "sourcePath": "main-app/content/overview/structured.md",
+      "path": "overview/structured.md",
+      "sha256": "b8b4d19470cb95bcfdb9d131bf4c70c2b83da26312c414550fb349ba9c8a35de"
+    },
+    {
+      "sourcePath": "main-app/content/playground/index.md",
+      "path": "playground/index.md",
+      "sha256": "deb37645bd47ff862b3f9e8c4360a8a8d40fd1a31f11ed48f169ffad0fa84d0b"
+    },
+    {
+      "sourcePath": "main-app/public/favicon.ico",
+      "path": "assets/favicon.ico",
+      "sha256": "1057b17aec08a7191d134000203947f195a8aa7c84c39f1164cee8d01279762a"
+    }
+  ]
+}
