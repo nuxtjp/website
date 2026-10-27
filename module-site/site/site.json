@@ -1,0 +1,253 @@
+{
+  "siteId": "nuxtjp",
+  "origin": "https://nuxt.jp",
+  "defaultLocale": "ja",
+  "locales": {
+    "ja": {
+      "brand": "NuxtJP",
+      "caption": "",
+      "origin": "https://nuxt.jp",
+      "locale": "ja",
+      "accent": "#087f5b",
+      "navigation": [
+        {
+          "title": "Nuxtを学ぶ",
+          "href": "/learn"
+        },
+        {
+          "title": "NuxtJP",
+          "href": "/nuxtjp"
+        },
+        {
+          "title": "モジュール",
+          "href": "/modules"
+        },
+        {
+          "title": "サンプル",
+          "href": "/learn/resources"
+        },
+        {
+          "title": "ドキュメント",
+          "href": "/docs"
+        }
+      ],
+      "resources": [
+        {
+          "title": "site-builder",
+          "summary": "日英の紹介・文書サイトとOSS一覧を、共通のNuxt基盤から構築します。",
+          "href": "https://github.com/nuxtjp/site-builder",
+          "category": "サイト構築",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-interaction-fixture",
+          "summary": "Rustの処理、通信、Nuxtの画面を通した操作を、検証用アプリで確認できます。",
+          "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+          "category": "実行環境と検証",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "declarative-ui",
+          "summary": "Nuxtで宣言的なview・interactionを組み込むモジュール。",
+          "href": "https://github.com/nuxtjp/declarative-ui",
+          "category": "UIと画面",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-provider-auth",
+          "summary": "外部サービスの認証に必要な入力と進行状態を表示し、利用アプリへ開始要求を渡せます。",
+          "href": "https://github.com/nuxtjp/nuxt-provider-auth",
+          "category": "認証とアカウント",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-local-runtime",
+          "summary": "利用者の明示操作で、ブラウザ画面から設定済みのローカルRust環境へ接続できます。",
+          "href": "https://github.com/nuxtjp/nuxt-local-runtime",
+          "category": "実行環境と検証",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxtjp-ui",
+          "summary": "日本語サービスのUIを、共通の部品・テーマ・言語設定で揃えられます。",
+          "href": "https://github.com/nuxtjp/nuxtjp-ui",
+          "category": "UIと画面",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-identity-client",
+          "summary": "ログイン、アカウント、認証方法、登録端末の画面を共通化できます。",
+          "href": "https://github.com/nuxtjp/nuxt-identity-client",
+          "category": "認証とアカウント",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-commerce",
+          "summary": "決済・利用権の状態を表示し、明示的な購入手続きへの引き継ぎ要求を作れます。",
+          "href": "https://github.com/nuxtjp/nuxt-commerce",
+          "category": "購入と利用権",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-vuetify-layer",
+          "summary": "Nuxt 3とVuetify 3を組み合わせ、プラグイン・CSS・基本レイアウトを再利用できます。",
+          "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+          "category": "UIと画面",
+          "license": "MIT"
+        },
+        {
+          "title": "nuxt-v8-view-worker",
+          "summary": "許可された単純な入力から、制限されたV8環境で表示断片を生成できます。",
+          "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+          "category": "実行環境と検証",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "NuxtJPのモジュール",
+        "href": "/modules"
+      },
+      "pageOrder": [
+        "/",
+        "/learn",
+        "/learn/introduction",
+        "/learn/modules",
+        "/learn/resources",
+        "/use-cases",
+        "/modules",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap",
+        "/nuxtjp"
+      ]
+    },
+    "en": {
+      "brand": "NuxtJP",
+      "caption": "",
+      "origin": "https://nuxt.jp",
+      "locale": "en",
+      "accent": "#087f5b",
+      "navigation": [
+        {
+          "title": "Learn Nuxt",
+          "href": "/learn"
+        },
+        {
+          "title": "NuxtJP",
+          "href": "/nuxtjp"
+        },
+        {
+          "title": "Modules",
+          "href": "/modules"
+        },
+        {
+          "title": "Examples",
+          "href": "/learn/resources"
+        },
+        {
+          "title": "Documentation",
+          "href": "/docs"
+        }
+      ],
+      "resources": [
+        {
+          "title": "site-builder",
+          "summary": "Build bilingual presentation, documentation and OSS catalogs on a shared Nuxt foundation.",
+          "href": "https://github.com/nuxtjp/site-builder",
+          "category": "Site building",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-interaction-fixture",
+          "summary": "Test a complete declared interaction across a Rust handler, transport and Nuxt browser view.",
+          "href": "https://github.com/nuxtjp/nuxt-interaction-fixture",
+          "category": "Runtime and verification",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "declarative-ui",
+          "summary": "Nuxt composition for declarative views and interactions.",
+          "href": "https://github.com/nuxtjp/declarative-ui",
+          "category": "UI and views",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-provider-auth",
+          "summary": "Present the choices and progress of an external-service sign-in without embedding provider credentials in the UI module.",
+          "href": "https://github.com/nuxtjp/nuxt-provider-auth",
+          "category": "Identity and accounts",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-local-runtime",
+          "summary": "Connect a browser interface to one explicitly configured local Rust runtime.",
+          "href": "https://github.com/nuxtjp/nuxt-local-runtime",
+          "category": "Runtime and verification",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxtjp-ui",
+          "summary": "Add consistent Japanese-first UI components, theme tokens and locale behavior to a Nuxt application.",
+          "href": "https://github.com/nuxtjp/nuxtjp-ui",
+          "category": "UI and views",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-identity-client",
+          "summary": "Provide consistent sign-in, account, authenticator and device-management screens in a Nuxt service.",
+          "href": "https://github.com/nuxtjp/nuxt-identity-client",
+          "category": "Identity and accounts",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-commerce",
+          "summary": "Display payment and entitlement state and request an explicit checkout handoff.",
+          "href": "https://github.com/nuxtjp/nuxt-commerce",
+          "category": "Commerce",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "nuxt-vuetify-layer",
+          "summary": "Start a Nuxt application with Vuetify plugins, styles and a basic layout already composed.",
+          "href": "https://github.com/nuxtjp/nuxt-vuetify-layer",
+          "category": "UI and views",
+          "license": "MIT"
+        },
+        {
+          "title": "nuxt-v8-view-worker",
+          "summary": "Render declared scalar input into a limited view fragment using a verified Rust/V8 worker.",
+          "href": "https://github.com/nuxtjp/nuxt-v8-view-worker",
+          "category": "Runtime and verification",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "NuxtJP modules",
+        "href": "/modules"
+      },
+      "pageOrder": [
+        "/",
+        "/learn",
+        "/learn/introduction",
+        "/learn/modules",
+        "/learn/resources",
+        "/use-cases",
+        "/modules",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap",
+        "/nuxtjp"
+      ]
+    }
+  }
+}

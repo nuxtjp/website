@@ -42,3 +42,6 @@ __pycache__/
 /module-site/.nuxt/
 /module-site/.output/
 /module-site/dist
+
+# Generated from the current Markdown/MDC sources; never a second authoring source.
+**/.generated-documents/
