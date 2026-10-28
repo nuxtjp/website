@@ -22,5 +22,9 @@
       "zone": "4206db723d3c27188ac8f953a0719000",
       "documentDirectory": "module-site/site"
     }
+  ],
+  "requiredChecks": [
+    "verify",
+    "content"
   ]
 }
